@@ -1,0 +1,12 @@
+{
+  "sample_skull": "BONE_SKULL",
+  "sample_femur_l": "BONE_FEMUR_L",
+  "sample_femur_r": "BONE_FEMUR_R",
+  "sample_gluteus_maximus_l": "MUSCLE_GLUTEUS_MAXIMUS_L",
+  "sample_gluteus_maximus_r": "MUSCLE_GLUTEUS_MAXIMUS_R",
+  "sample_rectus_femoris_l": "MUSCLE_RECTUS_FEMORIS_L",
+  "sample_rectus_femoris_r": "MUSCLE_RECTUS_FEMORIS_R",
+  "sample_achilles_tendon_l": "TENDON_ACHILLES_L",
+  "sample_acl_l": "LIGAMENT_ACL_L",
+  "sample_thoracolumbar_fascia": "FASCIA_THORACOLUMBAR"
+}
