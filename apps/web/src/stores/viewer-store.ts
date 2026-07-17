@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { CameraPreset, SexModel, StructureType } from "@/types/anatomy";
+import type { CameraPreset, ContractionMode, SexModel, StructureType } from "@/types/anatomy";
 
 type LayerVisibility = Record<StructureType, boolean>;
 const visibleLayers = (): LayerVisibility => ({ bone: true, muscle: true, tendon: true, ligament: true, fascia: true });
@@ -12,18 +12,20 @@ type ViewerState = {
   cameraPreset: CameraPreset;
   cameraRevision: number;
   isolateMode: boolean;
+  contractionMode: ContractionMode;
   setSexModel: (model: SexModel) => void;
   selectStructure: (code: string | null) => void;
   hoverStructure: (code: string | null) => void;
   toggleLayer: (layer: StructureType, selectedLayer?: StructureType | null) => void;
   setCameraPreset: (preset: CameraPreset) => void;
   toggleIsolate: () => void;
+  setContractionMode: (mode: ContractionMode) => void;
   reset: () => void;
 };
 
 export const useViewerStore = create<ViewerState>((set) => ({
   sexModel: "male", selectedStructureId: null, hoveredStructureId: null,
-  layerVisibility: visibleLayers(), cameraPreset: "front", cameraRevision: 0, isolateMode: false,
+  layerVisibility: visibleLayers(), cameraPreset: "front", cameraRevision: 0, isolateMode: false, contractionMode: "rest",
   setSexModel: (sexModel) => set({ sexModel }),
   selectStructure: (selectedStructureId) => set({ selectedStructureId }),
   hoverStructure: (hoveredStructureId) => set({ hoveredStructureId }),
@@ -36,5 +38,6 @@ export const useViewerStore = create<ViewerState>((set) => ({
   }),
   setCameraPreset: (cameraPreset) => set((state) => ({ cameraPreset, cameraRevision: state.cameraRevision + 1 })),
   toggleIsolate: () => set((state) => ({ isolateMode: !state.isolateMode })),
-  reset: () => set((state) => ({ sexModel: "male", selectedStructureId: null, hoveredStructureId: null, layerVisibility: visibleLayers(), cameraPreset: "front", cameraRevision: state.cameraRevision + 1, isolateMode: false }))
+  setContractionMode: (contractionMode) => set({ contractionMode }),
+  reset: () => set((state) => ({ sexModel: "male", selectedStructureId: null, hoveredStructureId: null, layerVisibility: visibleLayers(), cameraPreset: "front", cameraRevision: state.cameraRevision + 1, isolateMode: false, contractionMode: "rest" }))
 }));

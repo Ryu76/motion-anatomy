@@ -113,7 +113,7 @@ packages/
   anatomy-schema/         공통 Zod 스키마
 data/seed/                샘플 구조 및 3D node 매핑
 docs/                     아키텍처·라이선스·의료 면책·에셋 파이프라인
-assets/                   라이선스 검토 안내; 실제 모델은 Git 제외
+assets/                   추가 에셋의 라이선스 검토 안내
 ```
 
 ## 데이터와 3D 에셋
@@ -123,6 +123,10 @@ assets/                   라이선스 검토 안내; 실제 모델은 Git 제�
 - ID 규칙: `docs/anatomy-id-convention.md`
 - 에셋 연결 절차: `docs/asset-pipeline.md`
 - 라이선스 정책: `docs/licenses.md`
+- 실제 근육계·골격계 기준 모델: `apps/web/public/models/z-anatomy/*.glb`
+- 원본 FBX → Draco GLB 변환기: `scripts/convert_z_anatomy.py`
+
+프로덕션 뷰어는 primitive 샘플 대신 Z-Anatomy/BodyParts3D 기반 근육계와 골격계 메시를 사용합니다. 골격은 원본 토폴로지를 유지하고, 근육계는 웹 렌더링에 맞게 감량했습니다. 대둔근과 대퇴직근에는 중립·단축성·신장성 상태를 비교하는 동적 근섬유 오버레이가 추가됩니다. 출처와 라이선스 전문은 `apps/web/public/models/z-anatomy/ATTRIBUTION.md`에 보존합니다.
 
 외부 모델이 공개 다운로드 가능하더라도 재배포 권리가 명확하지 않으면 커밋하지 않습니다.
 

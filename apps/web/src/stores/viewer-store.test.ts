@@ -43,4 +43,17 @@ describe("viewer store", () => {
     expect(useViewerStore.getState().sexModel).toBe("female");
     expect(useViewerStore.getState().selectedStructureId).toBe("MUSCLE_GLUTEUS_MAXIMUS_L");
   });
+
+  it("switches muscle contraction mode and restores neutral state on reset", () => {
+    expect(useViewerStore.getState().contractionMode).toBe("rest");
+
+    useViewerStore.getState().setContractionMode("concentric");
+    expect(useViewerStore.getState().contractionMode).toBe("concentric");
+
+    useViewerStore.getState().setContractionMode("eccentric");
+    expect(useViewerStore.getState().contractionMode).toBe("eccentric");
+
+    useViewerStore.getState().reset();
+    expect(useViewerStore.getState().contractionMode).toBe("rest");
+  });
 });

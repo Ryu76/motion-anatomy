@@ -54,3 +54,16 @@ it("clears selected information and isolate when its layer is hidden", () => {
   expect(screen.getByRole("button", { name: "선택 구조만 보기" })).toBeDisabled();
   expect(useViewerStore.getState().isolateMode).toBe(false);
 });
+
+it("offers anatomically named contraction controls with visible state", () => {
+  render(<AnatomyWorkspace structures={[...structures]} />);
+
+  const controls = screen.getByRole("group", { name: "근수축 시뮬레이션" });
+  expect(within(controls).getByRole("button", { name: "중립" })).toHaveAttribute("aria-pressed", "true");
+  expect(within(controls).getByRole("button", { name: "단축성 수축" })).toBeInTheDocument();
+  expect(within(controls).getByRole("button", { name: "신장성 수축" })).toBeInTheDocument();
+
+  fireEvent.click(within(controls).getByRole("button", { name: "단축성 수축" }));
+  expect(useViewerStore.getState().contractionMode).toBe("concentric");
+  expect(screen.getByText(/근복이 짧고 굵어지며/)).toBeInTheDocument();
+});

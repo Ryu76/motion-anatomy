@@ -2,3 +2,4 @@ export type { AnatomySource, AnatomyStructure, ReviewStatus, StructureSide, Stru
 
 export type SexModel = "male" | "female";
 export type CameraPreset = "front" | "back" | "left" | "right" | "free";
+export type ContractionMode = "rest" | "concentric" | "eccentric";
