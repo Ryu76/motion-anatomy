@@ -43,3 +43,41 @@ const deformation: Record<ContractionMode, MuscleDeformation> = {
 export function getMuscleDeformation(mode: ContractionMode): MuscleDeformation {
   return deformation[mode];
 }
+
+export type MotionFrame = {
+  phase: ContractionMode;
+  phaseLabel: string;
+  deformation: MuscleDeformation;
+};
+
+const numericKeys: Array<keyof Pick<MuscleDeformation, "lengthScale" | "radiusScale" | "pennationScale" | "fiberTension">> = [
+  "lengthScale", "radiusScale", "pennationScale", "fiberTension",
+];
+
+function interpolate(from: MuscleDeformation, to: MuscleDeformation, amount: number): MuscleDeformation {
+  const result = { ...to };
+  for (const key of numericKeys) result[key] = from[key] + (to[key] - from[key]) * amount;
+  return result;
+}
+
+export function getMotionFrame(progress: number): MotionFrame {
+  const value = Math.min(1, Math.max(0, progress));
+  const keys: Array<{ at: number; mode: ContractionMode }> = [
+    { at: 0, mode: "rest" },
+    { at: 0.25, mode: "concentric" },
+    { at: 0.5, mode: "rest" },
+    { at: 0.75, mode: "eccentric" },
+    { at: 1, mode: "rest" },
+  ];
+  const exact = keys.find((key) => Math.abs(key.at - value) < 1e-9);
+  const segmentIndex = Math.min(keys.length - 2, Math.floor(value * 4));
+  const from = keys[segmentIndex];
+  const to = keys[segmentIndex + 1];
+  const amount = (value - from.at) / (to.at - from.at);
+  const phase = exact?.mode ?? (value < 0.5 ? "concentric" : "eccentric");
+  return {
+    phase,
+    phaseLabel: deformation[phase].label,
+    deformation: interpolate(deformation[from.mode], deformation[to.mode], amount),
+  };
+}

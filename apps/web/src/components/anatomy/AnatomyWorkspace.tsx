@@ -1,9 +1,9 @@
 "use client";
 import { useMemo } from "react";
 import dynamic from "next/dynamic";
-import type { AnatomyStructure, CameraPreset, ContractionMode, SexModel } from "@/types/anatomy";
+import type { AnatomyStructure, CameraPreset, SexModel } from "@/types/anatomy";
 import { useViewerStore } from "@/stores/viewer-store";
-import { getMuscleDeformation } from "@/lib/anatomy/muscle-deformation";
+import { getMotionFrame } from "@/lib/anatomy/muscle-deformation";
 import { AnatomyLayerPanel } from "./AnatomyLayerPanel";
 import { StructureInfoPanel } from "./StructureInfoPanel";
 
@@ -17,17 +17,18 @@ export function AnatomyWorkspace({ structures }: { structures: AnatomyStructure[
   const sexModel = useViewerStore((state) => state.sexModel); const setSexModel = useViewerStore((state) => state.setSexModel);
   const setCameraPreset = useViewerStore((state) => state.setCameraPreset); const cameraPreset = useViewerStore((state) => state.cameraPreset); const select = useViewerStore((state) => state.selectStructure);
   const isolate = useViewerStore((state) => state.isolateMode); const toggleIsolate = useViewerStore((state) => state.toggleIsolate); const reset = useViewerStore((state) => state.reset);
-  const contractionMode = useViewerStore((state) => state.contractionMode); const setContractionMode = useViewerStore((state) => state.setContractionMode);
-  const contraction = getMuscleDeformation(contractionMode);
+  const motionPlaying = useViewerStore((state) => state.motionPlaying); const toggleMotionPlayback = useViewerStore((state) => state.toggleMotionPlayback);
+  const motionProgress = useViewerStore((state) => state.motionProgress); const setMotionProgress = useViewerStore((state) => state.setMotionProgress);
+  const motionFrame = getMotionFrame(motionProgress); const contraction = motionFrame.deformation;
   const sexButton = (model: SexModel, label: string) => <button type="button" aria-label={`${label} 모델`} aria-pressed={sexModel === model} className="segmented-button" onClick={() => setSexModel(model)}>{label}</button>;
   const viewButton = (preset: CameraPreset, label: string) => <button type="button" aria-pressed={cameraPreset === preset} onClick={() => setCameraPreset(preset)}>{label}</button>;
-  const contractionButton = (mode: ContractionMode, label: string) => <button type="button" aria-pressed={contractionMode === mode} onClick={() => setContractionMode(mode)}>{label}</button>;
+
   return <main className="workspace">
     <header className="topbar"><div className="brand"><span className="brand-mark">MA</span><div><b>MOTION ANATOMY</b><span>근육 움직임 아틀라스</span></div></div><nav aria-label="주 메뉴"><a className="active" href="#viewer">해부학</a><span className="nav-disabled" aria-disabled="true">웨이트 · 준비 중</span><span className="nav-disabled" aria-disabled="true">움직임 · 준비 중</span><span className="nav-disabled" aria-disabled="true">스트레칭 · 준비 중</span></nav><div className="prototype-chip">FUNCTIONAL ATLAS · BETA</div></header>
-    <section className="hero-copy"><div><span className="eyebrow">FUNCTIONAL MUSCULOSKELETAL LAB</span><h1>근섬유의 방향부터,<br/><em>수축의 변화까지.</em></h1></div><p>근복·근건 접합부·섬유 다발을 분리해 관찰하고 단축성·신장성 수축에서 발생하는 형태 변화를 비교합니다.<br/>기능 해부학 교육과 움직임 분석을 위한 시각화입니다.</p></section>
+    <section className="hero-copy"><div><span className="eyebrow">INTERACTIVE ANATOMY ATLAS</span><h1>모든 해부 계통을 보고,<br/><em>실제 근육의 움직임까지.</em></h1></div><p>골격·근육·힘줄·인대·근막·혈관을 독립적으로 관찰하고 실제 해부학 근육 메시가 수축하고 이완하는 연속 동작을 재생합니다.<br/>기능 해부학 교육과 움직임 분석을 위한 시각화입니다.</p></section>
     <div id="viewer" className="viewer-grid"><AnatomyLayerPanel selectedStructureType={selected?.structure_type} /><section className="viewer-stage">
       <div className="stage-toolbar"><div className="segmented" role="group" aria-label="모델 성별">{sexButton("male", "남성")}{sexButton("female", "여성")}</div><div className="view-buttons" role="group" aria-label="카메라 시점">{viewButton("front", "정면")}{viewButton("back", "후면")}{viewButton("left", "좌측")}{viewButton("right", "우측")}</div><button type="button" className="reset-button" onClick={reset}>초기화</button></div>
-      <div className={`contraction-console mode-${contractionMode}`}><div><span className="contraction-kicker">MUSCLE DYNAMICS</span><b>{contraction.label}</b><small>{contraction.description}</small></div><div className="contraction-controls" role="group" aria-label="근수축 시뮬레이션">{contractionButton("rest", "중립")}{contractionButton("concentric", "단축성 수축")}{contractionButton("eccentric", "신장성 수축")}</div><div className="contraction-metrics" aria-hidden="true"><span>근장 <b>{Math.round(contraction.lengthScale * 100)}%</b></span><span>근복 <b>{Math.round(contraction.radiusScale * 100)}%</b></span><span>우상각 <b>{Math.round(contraction.pennationScale * 100)}%</b></span></div></div>
+      <div className={`contraction-console mode-${motionFrame.phase}`}><div><span className="contraction-kicker">LIVE MUSCLE MOTION</span><b>{motionFrame.phaseLabel}</b><small>실제 근육 메시가 짧고 굵어졌다가 이완·신장되는 한 동작을 연속 재생합니다.</small></div><div className="motion-controls" role="group" aria-label="근육 움직임 재생"><button type="button" onClick={toggleMotionPlayback}>{motionPlaying ? "일시정지" : "재생"}</button><input type="range" min="0" max="1" step="0.001" value={motionProgress} aria-label="근육 움직임 진행률" onChange={(event) => setMotionProgress(Number(event.target.value))}/><output>{Math.round(motionProgress * 100)}%</output></div><div className="contraction-metrics" aria-hidden="true"><span>근장 <b>{Math.round(contraction.lengthScale * 100)}%</b></span><span>근복 <b>{Math.round(contraction.radiusScale * 100)}%</b></span><span>우상각 <b>{Math.round(contraction.pennationScale * 100)}%</b></span></div></div>
       <AnatomyCanvas structures={structures} />
       <div className="stage-footer"><span>드래그 회전</span><span>휠 확대</span><span>구조 클릭</span><button type="button" aria-pressed={isolate} disabled={!selected} onClick={toggleIsolate}>선택 구조만 보기</button></div>
     </section><StructureInfoPanel structure={selected} /></div>

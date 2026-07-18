@@ -1,7 +1,7 @@
 "use client";
 import type { AnatomyStructure } from "@/types/anatomy";
 
-const typeLabels = { bone: "뼈", muscle: "근육", tendon: "힘줄", ligament: "인대", fascia: "근막" } as const;
+const typeLabels = { bone: "골격", muscle: "근육", tendon: "힘줄", ligament: "인대", fascia: "근막", vessel: "혈관" } as const;
 export function StructureInfoPanel({ structure }: { structure: AnatomyStructure | null }) {
   if (!structure) return <aside className="panel info-panel empty-info" aria-live="polite"><div className="empty-symbol">◎</div><h2>구조를 선택하세요</h2><p>3D 모델 또는 구조 목록을 선택하면 이름, 위치와 교육용 설명이 여기에 표시됩니다.</p></aside>;
   return <aside className="panel info-panel" aria-live="polite">

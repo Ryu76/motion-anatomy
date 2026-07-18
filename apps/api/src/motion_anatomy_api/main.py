@@ -26,7 +26,7 @@ class AnatomyStructure(BaseModel):
     name_ko: str
     name_en: str
     name_latin: str | None
-    structure_type: Literal["bone", "muscle", "tendon", "ligament", "fascia"]
+    structure_type: Literal["bone", "muscle", "tendon", "ligament", "fascia", "vessel"]
     body_region: str
     side: Literal["left", "right", "midline"]
     depth: str

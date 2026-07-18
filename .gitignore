@@ -17,6 +17,7 @@ __pycache__/
 htmlcov/
 .DS_Store
 .hermes/
+.asset-src/
 assets/**/*.glb
 assets/**/*.gltf
 apps/web/public/models/*.glb

@@ -33,10 +33,11 @@ it("selects a structure from the accessible list and shows bilingual information
   expect(within(panel).getByText(/의료 진단을 대체하지 않습니다/)).toBeInTheDocument();
 });
 
-it("exposes five layer controls and accessible model and camera state", () => {
+it("exposes six detailed anatomy layers with opacity controls", () => {
   render(<AnatomyWorkspace structures={[...structures]} />);
-  for (const name of ["뼈", "근육", "힘줄", "인대", "근막"]) {
+  for (const name of ["골격", "근육", "힘줄", "인대", "근막", "혈관"]) {
     expect(screen.getByRole("button", { name: new RegExp(name) })).toBeInTheDocument();
+    expect(screen.getByRole("slider", { name: `${name} 투명도` })).toBeInTheDocument();
   }
   expect(screen.getByRole("group", { name: "모델 성별" })).toBeInTheDocument();
   expect(screen.getByRole("button", { name: "여성 모델" })).toHaveAttribute("aria-pressed", "false");
@@ -55,15 +56,14 @@ it("clears selected information and isolate when its layer is hidden", () => {
   expect(useViewerStore.getState().isolateMode).toBe(false);
 });
 
-it("offers anatomically named contraction controls with visible state", () => {
+it("plays muscle shortening and lengthening on one continuous timeline", () => {
   render(<AnatomyWorkspace structures={[...structures]} />);
 
-  const controls = screen.getByRole("group", { name: "근수축 시뮬레이션" });
-  expect(within(controls).getByRole("button", { name: "중립" })).toHaveAttribute("aria-pressed", "true");
-  expect(within(controls).getByRole("button", { name: "단축성 수축" })).toBeInTheDocument();
-  expect(within(controls).getByRole("button", { name: "신장성 수축" })).toBeInTheDocument();
+  const controls = screen.getByRole("group", { name: "근육 움직임 재생" });
+  expect(within(controls).getByRole("button", { name: "일시정지" })).toBeInTheDocument();
+  expect(within(controls).getByRole("slider", { name: "근육 움직임 진행률" })).toBeInTheDocument();
+  expect(within(controls).queryByRole("button", { name: "단축성 수축" })).not.toBeInTheDocument();
 
-  fireEvent.click(within(controls).getByRole("button", { name: "단축성 수축" }));
-  expect(useViewerStore.getState().contractionMode).toBe("concentric");
-  expect(screen.getByText(/근복이 짧고 굵어지며/)).toBeInTheDocument();
+  fireEvent.click(within(controls).getByRole("button", { name: "일시정지" }));
+  expect(useViewerStore.getState().motionPlaying).toBe(false);
 });

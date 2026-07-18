@@ -87,7 +87,7 @@
     "origin_text": "Sprint 1에서는 검수된 상세 기시 정보를 제공하지 않습니다.",
     "insertion_text": "Sprint 1에서는 검수된 상세 정지 정보를 제공하지 않습니다.",
     "function_text": "고관절 신전과 외회전에 주로 관여하는 표층 근육입니다.",
-    "model_node_name": "sample_gluteus_maximus_l",
+    "model_node_name": "MUSCLE_GLUTEUS_MAXIMUS_L",
     "medical_disclaimer": "표시되는 정보와 활성도는 교육용 상대 표현이며 의료 진단이나 치료를 대체하지 않습니다.",
     "review_status": "draft",
     "source": {
@@ -112,7 +112,7 @@
     "origin_text": "Sprint 1에서는 검수된 상세 기시 정보를 제공하지 않습니다.",
     "insertion_text": "Sprint 1에서는 검수된 상세 정지 정보를 제공하지 않습니다.",
     "function_text": "고관절 신전과 외회전에 주로 관여하는 표층 근육입니다.",
-    "model_node_name": "sample_gluteus_maximus_r",
+    "model_node_name": "MUSCLE_GLUTEUS_MAXIMUS_R",
     "medical_disclaimer": "표시되는 정보와 활성도는 교육용 상대 표현이며 의료 진단이나 치료를 대체하지 않습니다.",
     "review_status": "draft",
     "source": {
@@ -137,7 +137,7 @@
     "origin_text": "Sprint 1에서는 검수된 상세 기시 정보를 제공하지 않습니다.",
     "insertion_text": "Sprint 1에서는 검수된 상세 정지 정보를 제공하지 않습니다.",
     "function_text": "무릎 신전과 고관절 굴곡에 관여하는 대퇴사두근 구성 근육입니다.",
-    "model_node_name": "sample_rectus_femoris_l",
+    "model_node_name": "MUSCLE_RECTUS_FEMORIS_L",
     "medical_disclaimer": "표시되는 정보와 활성도는 교육용 상대 표현이며 의료 진단이나 치료를 대체하지 않습니다.",
     "review_status": "draft",
     "source": {
@@ -162,7 +162,7 @@
     "origin_text": "Sprint 1에서는 검수된 상세 기시 정보를 제공하지 않습니다.",
     "insertion_text": "Sprint 1에서는 검수된 상세 정지 정보를 제공하지 않습니다.",
     "function_text": "무릎 신전과 고관절 굴곡에 관여하는 대퇴사두근 구성 근육입니다.",
-    "model_node_name": "sample_rectus_femoris_r",
+    "model_node_name": "MUSCLE_RECTUS_FEMORIS_R",
     "medical_disclaimer": "표시되는 정보와 활성도는 교육용 상대 표현이며 의료 진단이나 치료를 대체하지 않습니다.",
     "review_status": "draft",
     "source": {
@@ -247,6 +247,31 @@
       "url": "",
       "license": "Project sample data",
       "citation_text": "Non-diagnostic procedural sample content"
+    }
+  },
+  {
+    "code": "VESSEL_AORTA",
+    "name_ko": "대동맥",
+    "name_en": "Aorta",
+    "name_latin": "Aorta",
+    "structure_type": "vessel",
+    "body_region": "thorax",
+    "side": "midline",
+    "depth": "deep",
+    "description": "심장에서 나온 산소화 혈액을 전신 동맥계로 전달하는 가장 큰 동맥입니다.",
+    "origin_text": "해당 없음",
+    "insertion_text": "해당 없음",
+    "function_text": "상행대동맥·대동맥궁·하행대동맥을 통해 전신 순환으로 혈액을 분배합니다.",
+    "model_node_name": "VASCULAR_SYSTEM",
+    "medical_disclaimer": "표시되는 혈관 구조는 해부학 교육용이며 개인별 혈관 상태나 의료 진단을 대체하지 않습니다.",
+    "review_status": "draft",
+    "source": {
+      "title": "Z-Anatomy — The open source atlas of anatomy",
+      "organization": "Z-Anatomy",
+      "publication_year": 2026,
+      "url": "https://www.z-anatomy.com/",
+      "license": "CC BY-SA 4.0",
+      "citation_text": "Z-Anatomy cardiovascular system, adapted for Motion Anatomy"
     }
   }
 ]

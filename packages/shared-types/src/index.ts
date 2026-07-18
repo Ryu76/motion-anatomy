@@ -1,4 +1,4 @@
-export type StructureType = "bone" | "muscle" | "tendon" | "ligament" | "fascia";
+export type StructureType = "bone" | "muscle" | "tendon" | "ligament" | "fascia" | "vessel";
 export type StructureSide = "left" | "right" | "midline";
 export type ReviewStatus = "draft" | "editor_review" | "expert_review" | "approved" | "deprecated";
 

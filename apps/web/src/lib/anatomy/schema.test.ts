@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { anatomyStructureListSchema } from "@motion-anatomy/anatomy-schema";
+import { anatomyStructureListSchema, anatomyStructureSchema } from "@motion-anatomy/anatomy-schema";
 
 const validStructure = {
   code: "MUSCLE_SAMPLE_L",
@@ -29,5 +29,17 @@ describe("anatomyStructureListSchema", () => {
 
   it("rejects an unsupported structure type", () => {
     expect(() => anatomyStructureListSchema.parse([{ ...validStructure, structure_type: "skin" }])).toThrow();
+  });
+
+  it("accepts detailed vessel structures", () => {
+    const vessel = anatomyStructureSchema.parse({
+      ...validStructure,
+      code: "VESSEL_AORTA",
+      name_ko: "대동맥",
+      name_en: "Aorta",
+      structure_type: "vessel",
+      model_node_name: "Aorta",
+    });
+    expect(vessel.structure_type).toBe("vessel");
   });
 });

@@ -6,7 +6,10 @@ beforeEach(() => useViewerStore.getState().reset());
 describe("viewer store", () => {
   it("starts with all educational layers visible", () => {
     expect(useViewerStore.getState().layerVisibility).toEqual({
-      bone: true, muscle: true, tendon: true, ligament: true, fascia: true
+      bone: true, muscle: true, tendon: true, ligament: true, fascia: true, vessel: true
+    });
+    expect(useViewerStore.getState().layerOpacity).toEqual({
+      bone: 1, muscle: 1, tendon: 1, ligament: 1, fascia: 0.5, vessel: 1
     });
   });
 
@@ -44,16 +47,20 @@ describe("viewer store", () => {
     expect(useViewerStore.getState().selectedStructureId).toBe("MUSCLE_GLUTEUS_MAXIMUS_L");
   });
 
-  it("switches muscle contraction mode and restores neutral state on reset", () => {
-    expect(useViewerStore.getState().contractionMode).toBe("rest");
+  it("controls one continuous muscle-motion timeline", () => {
+    expect(useViewerStore.getState().motionPlaying).toBe(true);
+    expect(useViewerStore.getState().motionProgress).toBe(0);
 
-    useViewerStore.getState().setContractionMode("concentric");
-    expect(useViewerStore.getState().contractionMode).toBe("concentric");
+    useViewerStore.getState().toggleMotionPlayback();
+    expect(useViewerStore.getState().motionPlaying).toBe(false);
+    useViewerStore.getState().setMotionProgress(0.75);
+    expect(useViewerStore.getState().motionProgress).toBe(0.75);
 
-    useViewerStore.getState().setContractionMode("eccentric");
-    expect(useViewerStore.getState().contractionMode).toBe("eccentric");
+    useViewerStore.getState().setLayerOpacity("muscle", 0.42);
+    expect(useViewerStore.getState().layerOpacity.muscle).toBe(0.42);
 
     useViewerStore.getState().reset();
-    expect(useViewerStore.getState().contractionMode).toBe("rest");
+    expect(useViewerStore.getState().motionPlaying).toBe(true);
+    expect(useViewerStore.getState().motionProgress).toBe(0);
   });
 });

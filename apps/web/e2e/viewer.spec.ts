@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 test("explores a structure and keeps selection across model changes", async ({ page }) => {
   await page.goto("/");
   await expect(page).toHaveTitle(/Motion Anatomy/);
-  await expect(page.getByRole("heading", { name: /근섬유의 방향부터/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /모든 해부 계통을 보고/ })).toBeVisible();
   const canvas = page.locator(".canvas-shell canvas");
   await expect(canvas).toBeVisible({ timeout: 60_000 });
 
@@ -18,6 +18,10 @@ test("explores a structure and keeps selection across model changes", async ({ p
   const muscleLayer = page.getByRole("button", { name: /근육/ });
   await muscleLayer.click();
   await expect(muscleLayer).toHaveAttribute("aria-pressed", "false");
+  const layerPanel = page.getByRole("region", { name: "해부학 레이어" });
+  await expect(layerPanel.getByRole("button", { name: /^혈관/ })).toBeVisible();
+  await layerPanel.getByRole("slider", { name: "혈관 투명도" }).fill("0.65");
+  await expect(layerPanel.getByRole("slider", { name: "혈관 투명도" })).toHaveValue("0.65");
 });
 
 test("does not overflow horizontally on a mobile viewport", async ({ page }, testInfo) => {
@@ -28,17 +32,16 @@ test("does not overflow horizontally on a mobile viewport", async ({ page }, tes
   await expect(page.getByRole("heading", { name: "구조 탐색" })).toBeVisible();
 });
 
-test("compares concentric and eccentric muscle deformation", async ({ page }) => {
+test("plays concentric and eccentric deformation on one continuous timeline", async ({ page }) => {
   await page.goto("/");
-  const dynamics = page.getByRole("group", { name: "근수축 시뮬레이션" });
-
-  await dynamics.getByRole("button", { name: "단축성 수축" }).click();
-  await expect(dynamics.getByRole("button", { name: "단축성 수축" })).toHaveAttribute("aria-pressed", "true");
+  const dynamics = page.getByRole("group", { name: "근육 움직임 재생" });
+  await dynamics.getByRole("button", { name: "일시정지" }).click();
+  await expect(dynamics.getByRole("button", { name: "재생" })).toBeVisible();
+  const timeline = dynamics.getByRole("slider", { name: "근육 움직임 진행률" });
+  await timeline.fill("0.25");
   await expect(page.locator(".contraction-metrics")).toContainText("근장 82%");
   await expect(page.locator(".contraction-metrics")).toContainText("근복 111%");
-
-  await dynamics.getByRole("button", { name: "신장성 수축" }).click();
-  await expect(dynamics.getByRole("button", { name: "신장성 수축" })).toHaveAttribute("aria-pressed", "true");
+  await timeline.fill("0.75");
   await expect(page.locator(".contraction-metrics")).toContainText("근장 118%");
   await expect(page.locator(".contraction-metrics")).toContainText("근복 92%");
 });

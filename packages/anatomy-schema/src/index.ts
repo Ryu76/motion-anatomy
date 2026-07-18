@@ -10,11 +10,11 @@ export const anatomySourceSchema = z.object({
 });
 
 export const anatomyStructureSchema = z.object({
-  code: z.string().regex(/^(BONE|MUSCLE|TENDON|LIGAMENT|FASCIA)_[A-Z0-9_]+$/),
+  code: z.string().regex(/^(BONE|MUSCLE|TENDON|LIGAMENT|FASCIA|VESSEL)_[A-Z0-9_]+$/),
   name_ko: z.string().min(1),
   name_en: z.string().min(1),
   name_latin: z.string().nullable(),
-  structure_type: z.enum(["bone", "muscle", "tendon", "ligament", "fascia"]),
+  structure_type: z.enum(["bone", "muscle", "tendon", "ligament", "fascia", "vessel"]),
   body_region: z.string().min(1),
   side: z.enum(["left", "right", "midline"]),
   depth: z.string().min(1),
