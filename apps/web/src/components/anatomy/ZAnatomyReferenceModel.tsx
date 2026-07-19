@@ -7,6 +7,7 @@ import { Color, Mesh, MeshStandardMaterial, Object3D } from "three";
 import type { StructureType } from "@/types/anatomy";
 import { useViewerStore } from "@/stores/viewer-store";
 import { getMotionFrame } from "@/lib/anatomy/muscle-deformation";
+import { applySceneSelection, isIndividuallySelectable, resolveSelectableStructure, selectableNodeCodes } from "@/lib/anatomy/scene-selection";
 
 const urls: Record<StructureType, string> = {
   bone: "/models/z-anatomy/z-anatomy-skeletal-system.glb",
@@ -15,13 +16,6 @@ const urls: Record<StructureType, string> = {
   ligament: "/models/z-anatomy/z-anatomy-ligaments.glb",
   fascia: "/models/z-anatomy/z-anatomy-fascia.glb",
   vessel: "/models/z-anatomy/z-anatomy-vessels.glb",
-};
-
-const targetNodeToStructure: Record<string, string> = {
-  MUSCLE_GLUTEUS_MAXIMUS_L: "MUSCLE_GLUTEUS_MAXIMUS_L",
-  MUSCLE_GLUTEUS_MAXIMUS_R: "MUSCLE_GLUTEUS_MAXIMUS_R",
-  MUSCLE_RECTUS_FEMORIS_L: "MUSCLE_RECTUS_FEMORIS_L",
-  MUSCLE_RECTUS_FEMORIS_R: "MUSCLE_RECTUS_FEMORIS_R",
 };
 
 const fallbackColors: Record<StructureType, string> = {
@@ -68,15 +62,6 @@ function applyOpacity(scene: Object3D, opacity: number) {
   });
 }
 
-function resolveStructureCode(object: Object3D) {
-  let current: Object3D | null = object;
-  while (current) {
-    if (targetNodeToStructure[current.name]) return targetNodeToStructure[current.name];
-    current = current.parent;
-  }
-  return null;
-}
-
 function setMorphInfluence(mesh: Mesh, targetName: string, value: number) {
   const dictionary = mesh.morphTargetDictionary;
   const influences = mesh.morphTargetInfluences;
@@ -90,7 +75,7 @@ function AnimatedMuscleMorphs({ scene }: { scene: Object3D }) {
   useEffect(() => {
     const result: Mesh[] = [];
     scene.traverse((node) => {
-      if (node instanceof Mesh && targetNodeToStructure[node.name] && node.morphTargetDictionary) result.push(node);
+      if (node instanceof Mesh && selectableNodeCodes.has(node.name) && node.morphTargetDictionary) result.push(node);
     });
     animatedMeshes.current = result;
   }, [scene]);
@@ -118,6 +103,7 @@ export function ZAnatomyReferenceModel() {
   const opacity = useViewerStore((state) => state.layerOpacity);
   const isolate = useViewerStore((state) => state.isolateMode);
   const selectedId = useViewerStore((state) => state.selectedStructureId);
+  const hoveredId = useViewerStore((state) => state.hoveredStructureId);
   const select = useViewerStore((state) => state.selectStructure);
   const hover = useViewerStore((state) => state.hoverStructure);
 
@@ -134,8 +120,10 @@ export function ZAnatomyReferenceModel() {
     for (const layer of Object.keys(models) as StructureType[]) applyOpacity(models[layer], opacity[layer]);
   }, [models, opacity]);
 
+  useEffect(() => applySceneSelection(models.muscle, { selectedId, hoveredId, isolate }), [hoveredId, isolate, models.muscle, selectedId]);
+
   const isolateLayer = selectedId?.split("_")[0].toLowerCase() as StructureType | undefined;
-  const shouldShow = (layer: StructureType) => visibility[layer] && (!isolate || isolateLayer === layer);
+  const shouldShow = (layer: StructureType) => visibility[layer] && (!isolate || (isIndividuallySelectable(selectedId) ? layer === "muscle" : isolateLayer === layer));
 
   return <group name="Z-Anatomy detailed systems" scale={2.46} position={[0, -2.15, 0]}>
     {shouldShow("bone") && <primitive object={models.bone} renderOrder={0} />}
@@ -146,13 +134,13 @@ export function ZAnatomyReferenceModel() {
       object={models.muscle}
       renderOrder={4}
       onClick={(event: { stopPropagation: () => void; object: Object3D }) => {
-        const code = resolveStructureCode(event.object);
+        const code = resolveSelectableStructure(event.object);
         if (!code) return;
         event.stopPropagation();
         select(code);
       }}
       onPointerOver={(event: { stopPropagation: () => void; object: Object3D }) => {
-        const code = resolveStructureCode(event.object);
+        const code = resolveSelectableStructure(event.object);
         if (!code) return;
         event.stopPropagation();
         hover(code);
