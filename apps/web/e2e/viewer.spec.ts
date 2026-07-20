@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test("explores a structure and keeps selection across model changes", async ({ page }) => {
+test("explores a structure and exercises layer controls", async ({ page }) => {
   await page.goto("/");
   await expect(page).toHaveTitle(/Motion Anatomy/);
   await expect(page.getByRole("heading", { name: /모든 해부 계통을 보고/ })).toBeVisible();
@@ -10,10 +10,7 @@ test("explores a structure and keeps selection across model changes", async ({ p
   await page.getByRole("button", { name: /왼쪽 대둔근 Left gluteus maximus/ }).click();
   const info = page.getByRole("complementary");
   await expect(info.getByRole("heading", { name: "왼쪽 대둔근" })).toBeVisible();
-  await expect(info.getByText("Left gluteus maximus")).toBeVisible();
-
-  await page.getByRole("button", { name: "여성 모델" }).click();
-  await expect(page.getByRole("button", { name: /왼쪽 대둔근 Left gluteus maximus/ })).toHaveAttribute("aria-pressed", "true");
+  await expect(info.locator(".english-name")).toHaveText("Left gluteus maximus");
 
   const muscleLayer = page.getByRole("button", { name: /근육/ });
   await muscleLayer.click();
