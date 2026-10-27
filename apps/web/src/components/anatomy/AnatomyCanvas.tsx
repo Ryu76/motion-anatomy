@@ -1,6 +1,6 @@
 "use client";
-import { Component, type ErrorInfo, type ReactNode, useEffect, useMemo, useRef } from "react";
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { Component, type ErrorInfo, type ReactNode, useEffect, useMemo } from "react";
+import { Canvas, useThree } from "@react-three/fiber";
 import { Environment, Grid, OrbitControls } from "@react-three/drei";
 import type { AnatomyStructure } from "@/types/anatomy";
 import { useViewerStore } from "@/stores/viewer-store";
@@ -25,20 +25,6 @@ function CameraRig({ focus }: { focus: StructureFocus }) {
   return null;
 }
 
-function MotionTimelineController() {
-  const playing = useViewerStore((state) => state.motionPlaying);
-  const elapsed = useRef(0);
-  useFrame((_, delta) => {
-    if (!playing) return;
-    elapsed.current += Math.min(delta, 0.1);
-    if (elapsed.current < 0.05) return;
-    const state = useViewerStore.getState();
-    state.setMotionProgress((state.motionProgress + elapsed.current / 8) % 1);
-    elapsed.current = 0;
-  });
-  return null;
-}
-
 export function AnatomyCanvas({ structures }: { structures: AnatomyStructure[] }) {
   const clearSelection = useViewerStore((state) => state.selectStructure);
   const selectedId = useViewerStore((state) => state.selectedStructureId);
@@ -49,7 +35,7 @@ export function AnatomyCanvas({ structures }: { structures: AnatomyStructure[] }
       <color attach="background" args={["#07131a"]} /><fog attach="fog" args={["#07131a", 6, 11]} />
       <ambientLight intensity={0.75} /><directionalLight position={[3, 5, 4]} intensity={2.2} castShadow /><pointLight position={[-3, 1, 2]} color="#6ee7d8" intensity={12} distance={8} />
       <SampleHumanModel structures={structures} /><Grid position={[0, -2.32, 0]} args={[8, 8]} cellColor="#19323c" sectionColor="#2b6268" fadeDistance={8} infiniteGrid />
-      <CameraRig focus={focus} /><MotionTimelineController /><OrbitControls makeDefault target={focus.target} minDistance={2.7} maxDistance={9} enableDamping />
+      <CameraRig focus={focus} /><OrbitControls makeDefault target={focus.target} minDistance={2.7} maxDistance={9} enableDamping />
       <Environment preset="warehouse" environmentIntensity={0.35} />
     </Canvas>
   </div></ViewerErrorBoundary>;

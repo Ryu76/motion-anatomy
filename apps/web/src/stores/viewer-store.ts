@@ -57,7 +57,7 @@ export const useViewerStore = create<ViewerState>((set) => ({
   cameraPreset: "front",
   cameraRevision: 0,
   isolateMode: false,
-  motionPlaying: true,
+  motionPlaying: false,
   motionProgress: 0,
   setSexModel: (sexModel) => set({ sexModel }),
   selectStructure: (selectedStructureId) => set({ selectedStructureId }),
@@ -86,7 +86,7 @@ export const useViewerStore = create<ViewerState>((set) => ({
     cameraPreset: "front",
     cameraRevision: state.cameraRevision + 1,
     isolateMode: false,
-    motionPlaying: true,
+    motionPlaying: false,
     motionProgress: 0,
   })),
 }));

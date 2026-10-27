@@ -9,10 +9,10 @@ export function SiteHeader({ active = "anatomy" }: { active?: ContentKind | "ana
     { key: "stretch", href: "/stretches", label: "스트레칭" },
   ] as const;
   return <header className="topbar">
-    <Link href="/" className="brand" aria-label="Motion Anatomy 홈">
-      <span className="brand-mark">MA</span><span><b>MOTION ANATOMY</b><small>근육 움직임 아틀라스</small></span>
+    <Link href="/" className="brand" aria-label="모션 아나토미 홈">
+      <span className="brand-mark">MA</span><span><b>모션 아나토미</b><small>근육 움직임 아틀라스</small></span>
     </Link>
     <nav aria-label="주 메뉴">{links.map((link) => <Link key={link.key} className={active === link.key ? "active" : ""} href={link.href}>{link.label}</Link>)}</nav>
-    <div className="prototype-chip">FUNCTIONAL ATLAS · BETA</div>
+    <div className="prototype-chip">기능 해부 아틀라스 · 베타</div>
   </header>;
 }

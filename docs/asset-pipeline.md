@@ -1,11 +1,27 @@
-# Asset Pipeline
+# Z-Anatomy Asset Pipeline
 
-Sprint 1 uses code-generated primitive geometry so no third-party anatomical asset is redistributed. A future licensed GLB must:
+The licensed Z-Anatomy/BodyParts3D derivatives are generated from gitignored source FBX files. The muscular source is acquired only from the attribution-declared upstream and its provenance/checksum is recorded in `apps/web/public/models/z-anatomy/ATTRIBUTION.md` and the generated manifest.
 
-1. Have one stable node per selectable structure.
-2. Preserve source, license, attribution, hash, and version metadata.
-3. Map node names through `data/seed/model-node-map.json`.
-4. Be optimized with glTF Transform and measured before commit/deploy.
-5. Keep initial delivery under 20 MB and provide selection proxies.
+## Muscle build
 
-Files under model paths are ignored until license approval. Do not commit a downloaded anatomy model merely because it is publicly accessible.
+```bash
+E:/tools/blender-portable/blender-4.5.3-windows-x64/blender.exe --background \
+  --python scripts/build_anatomy_layers.py -- \
+  .asset-src apps/web/public/models/z-anatomy \
+  data/generated/z-anatomy-muscles-manifest.json \
+  data/seed/anatomy_structures.json
+
+E:/tools/blender-portable/blender-4.5.3-windows-x64/blender.exe --background \
+  --python scripts/validate_muscle_asset.py -- \
+  apps/web/public/models/z-anatomy/z-anatomy-muscles-detailed.glb \
+  data/generated/z-anatomy-muscles-manifest.json \
+  data/seed/anatomy_structures.json
+```
+
+The builder classifies each `MuscularSystem100.fbx` source object's faces by material. Tendon, fascia, bursa, ligament, cartilage, articular-capsule, and unassigned faces are excluded from the muscle layer. Every remaining geometry-backed source muscle becomes one independently named GLB node; they must never be joined into `MUSCLE_SYSTEM_STATIC`.
+
+`data/generated/z-anatomy-muscles-manifest.json` is the deterministic asset contract: each exported node has source object name, post-optimization vertex/triangle counts, morph list, source checksum, and generated GLB checksum. The builder regenerates `data/seed/anatomy_structures.json` muscle records and `data/seed/model-node-map.json` from this contract. Runtime selection derives its node-to-structure mapping from those seed records, not a hardcoded muscle list.
+
+Only the two gluteus maximus and two rectus femoris nodes have `Shorten` and `Lengthen` morph targets. Other source muscle nodes are static to keep decode, memory, and animation costs bounded.
+
+Asset contract tests verify source-to-seed one-to-one mapping, unique normalized node codes, no merged static node, geometry for every muscle, and deep psoas/iliacus coverage. The Blender validation additionally imports the Draco GLB and checks actual nodes and geometry.

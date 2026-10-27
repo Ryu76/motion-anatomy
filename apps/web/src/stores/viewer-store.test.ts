@@ -47,12 +47,12 @@ describe("viewer store", () => {
     expect(useViewerStore.getState().selectedStructureId).toBe("MUSCLE_GLUTEUS_MAXIMUS_L");
   });
 
-  it("controls one continuous muscle-motion timeline", () => {
-    expect(useViewerStore.getState().motionPlaying).toBe(true);
+  it("keeps the retired home motion state paused when reset", () => {
+    expect(useViewerStore.getState().motionPlaying).toBe(false);
     expect(useViewerStore.getState().motionProgress).toBe(0);
 
     useViewerStore.getState().toggleMotionPlayback();
-    expect(useViewerStore.getState().motionPlaying).toBe(false);
+    expect(useViewerStore.getState().motionPlaying).toBe(true);
     useViewerStore.getState().setMotionProgress(0.75);
     expect(useViewerStore.getState().motionProgress).toBe(0.75);
 
@@ -60,7 +60,7 @@ describe("viewer store", () => {
     expect(useViewerStore.getState().layerOpacity.muscle).toBe(0.42);
 
     useViewerStore.getState().reset();
-    expect(useViewerStore.getState().motionPlaying).toBe(true);
+    expect(useViewerStore.getState().motionPlaying).toBe(false);
     expect(useViewerStore.getState().motionProgress).toBe(0);
   });
 });

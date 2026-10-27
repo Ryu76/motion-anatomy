@@ -1,13 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useRef } from "react";
-import { useFrame } from "@react-three/fiber";
+import { useEffect, useMemo } from "react";
 import { useGLTF } from "@react-three/drei";
 import { Color, Mesh, MeshStandardMaterial, Object3D } from "three";
-import type { StructureType } from "@/types/anatomy";
+import type { AnatomyStructure, StructureType } from "@/types/anatomy";
 import { useViewerStore } from "@/stores/viewer-store";
-import { getMotionFrame } from "@/lib/anatomy/muscle-deformation";
-import { applySceneSelection, isIndividuallySelectable, resolveSelectableStructure, selectableNodeCodes } from "@/lib/anatomy/scene-selection";
+import { applySceneSelection, createMuscleNodeCodeMap, isIndividuallySelectable, resolveSelectableStructure } from "@/lib/anatomy/scene-selection";
 
 const urls: Record<StructureType, string> = {
   bone: "/models/z-anatomy/z-anatomy-skeletal-system.glb",
@@ -62,37 +60,8 @@ function applyOpacity(scene: Object3D, opacity: number) {
   });
 }
 
-function setMorphInfluence(mesh: Mesh, targetName: string, value: number) {
-  const dictionary = mesh.morphTargetDictionary;
-  const influences = mesh.morphTargetInfluences;
-  const index = dictionary?.[targetName];
-  if (index === undefined || !influences) return;
-  influences[index] = value;
-}
 
-function AnimatedMuscleMorphs({ scene }: { scene: Object3D }) {
-  const animatedMeshes = useRef<Mesh[]>([]);
-  useEffect(() => {
-    const result: Mesh[] = [];
-    scene.traverse((node) => {
-      if (node instanceof Mesh && selectableNodeCodes.has(node.name) && node.morphTargetDictionary) result.push(node);
-    });
-    animatedMeshes.current = result;
-  }, [scene]);
-
-  useFrame(() => {
-    const frame = getMotionFrame(useViewerStore.getState().motionProgress);
-    const shortenWeight = Math.min(1, Math.max(0, (1 - frame.deformation.lengthScale) / 0.18));
-    const lengthenWeight = Math.min(1, Math.max(0, (frame.deformation.lengthScale - 1) / 0.18));
-    for (const mesh of animatedMeshes.current) {
-      setMorphInfluence(mesh, "Shorten", shortenWeight);
-      setMorphInfluence(mesh, "Lengthen", lengthenWeight);
-    }
-  });
-  return null;
-}
-
-export function ZAnatomyReferenceModel() {
+export function ZAnatomyReferenceModel({ structures }: { structures: AnatomyStructure[] }) {
   const boneAsset = useGLTF(urls.bone, "/draco/");
   const muscleAsset = useGLTF(urls.muscle, "/draco/");
   const tendonAsset = useGLTF(urls.tendon, "/draco/");
@@ -106,6 +75,7 @@ export function ZAnatomyReferenceModel() {
   const hoveredId = useViewerStore((state) => state.hoveredStructureId);
   const select = useViewerStore((state) => state.selectStructure);
   const hover = useViewerStore((state) => state.hoverStructure);
+  const muscleNodeCodes = useMemo(() => createMuscleNodeCodeMap(structures), [structures]);
 
   const models = useMemo(() => ({
     bone: prepareModel(boneAsset.scene, "bone"),
@@ -120,10 +90,10 @@ export function ZAnatomyReferenceModel() {
     for (const layer of Object.keys(models) as StructureType[]) applyOpacity(models[layer], opacity[layer]);
   }, [models, opacity]);
 
-  useEffect(() => applySceneSelection(models.muscle, { selectedId, hoveredId, isolate }), [hoveredId, isolate, models.muscle, selectedId]);
+  useEffect(() => applySceneSelection(models.muscle, { selectedId, hoveredId, isolate }, muscleNodeCodes), [hoveredId, isolate, models.muscle, muscleNodeCodes, selectedId]);
 
   const isolateLayer = selectedId?.split("_")[0].toLowerCase() as StructureType | undefined;
-  const shouldShow = (layer: StructureType) => visibility[layer] && (!isolate || (isIndividuallySelectable(selectedId) ? layer === "muscle" : isolateLayer === layer));
+  const shouldShow = (layer: StructureType) => visibility[layer] && (!isolate || (isIndividuallySelectable(selectedId, muscleNodeCodes) ? layer === "muscle" : isolateLayer === layer));
 
   return <group name="Z-Anatomy detailed systems" scale={2.46} position={[0, -2.15, 0]}>
     {shouldShow("bone") && <primitive object={models.bone} renderOrder={0} />}
@@ -134,13 +104,13 @@ export function ZAnatomyReferenceModel() {
       object={models.muscle}
       renderOrder={4}
       onClick={(event: { stopPropagation: () => void; object: Object3D }) => {
-        const code = resolveSelectableStructure(event.object);
+        const code = resolveSelectableStructure(event.object, muscleNodeCodes);
         if (!code) return;
         event.stopPropagation();
         select(code);
       }}
       onPointerOver={(event: { stopPropagation: () => void; object: Object3D }) => {
-        const code = resolveSelectableStructure(event.object);
+        const code = resolveSelectableStructure(event.object, muscleNodeCodes);
         if (!code) return;
         event.stopPropagation();
         hover(code);
@@ -149,7 +119,7 @@ export function ZAnatomyReferenceModel() {
       onPointerOut={() => { hover(null); document.body.style.cursor = "default"; }}
     />}
     {shouldShow("fascia") && <primitive object={models.fascia} renderOrder={5} />}
-    <AnimatedMuscleMorphs scene={models.muscle} />
+
   </group>;
 }
 

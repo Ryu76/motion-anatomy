@@ -16,6 +16,11 @@ export type AnatomyStructure = {
   name_ko: string;
   name_en: string;
   name_latin: string | null;
+  /**
+   * Search-only names, including anatomical group terms. These never replace the
+   * canonical component names displayed in the atlas.
+   */
+  search_terms: readonly string[];
   structure_type: StructureType;
   body_region: string;
   side: StructureSide;

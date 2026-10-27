@@ -14,6 +14,7 @@ export const anatomyStructureSchema = z.object({
   name_ko: z.string().min(1),
   name_en: z.string().min(1),
   name_latin: z.string().nullable(),
+  search_terms: z.array(z.string().min(1)).default([]),
   structure_type: z.enum(["bone", "muscle", "tendon", "ligament", "fascia", "vessel"]),
   body_region: z.string().min(1),
   side: z.enum(["left", "right", "midline"]),

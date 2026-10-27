@@ -19,7 +19,7 @@ export function AnatomyLayerPanel({ selectedStructureType = null }: { selectedSt
   const setOpacity = useViewerStore((state) => state.setLayerOpacity);
 
   return <section className="panel layer-panel" aria-labelledby="layer-title">
-    <div className="panel-kicker">ANATOMY SYSTEMS</div>
+    <div className="panel-kicker">해부 계통</div>
     <h2 id="layer-title">해부학 레이어</h2>
     <div className="layer-list">{layers.map((layer) => <div className="layer-item" key={layer}>
       <button type="button" aria-pressed={visibility[layer]} onClick={() => toggle(layer, selectedStructureType)} className="layer-toggle">

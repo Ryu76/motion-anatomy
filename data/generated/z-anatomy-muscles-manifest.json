@@ -1,0 +1,4191 @@
+{
+  "asset": "z-anatomy-muscles-detailed.glb",
+  "asset_bytes": 2562844,
+  "asset_sha256": "24684151899414a835f0e5f03052eebab14894d74fd82ec22d92a69145e64ba2",
+  "muscle_count": 462,
+  "muscles": [
+    {
+      "model_node_name": "MUSCLE_ABDOMINAL_PART_OF_PECTORALIS_MAJOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 234,
+      "source_name": "(Abdominal part of pectoralis major muscle).l",
+      "triangles": 234,
+      "vertices": 150
+    },
+    {
+      "model_node_name": "MUSCLE_ABDOMINAL_PART_OF_PECTORALIS_MAJOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 234,
+      "source_name": "(Abdominal part of pectoralis major muscle).r",
+      "triangles": 234,
+      "vertices": 150
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_DIGITI_MINIMI_OF_FOOT_L",
+      "morph_targets": [],
+      "polygons": 384,
+      "source_name": "Abductor digiti minimi of foot.l",
+      "triangles": 384,
+      "vertices": 192
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_DIGITI_MINIMI_OF_FOOT_R",
+      "morph_targets": [],
+      "polygons": 384,
+      "source_name": "Abductor digiti minimi of foot.r",
+      "triangles": 384,
+      "vertices": 192
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_DIGITI_MINIMI_OF_HAND_L",
+      "morph_targets": [],
+      "polygons": 131,
+      "source_name": "Abductor digiti minimi of hand.l",
+      "triangles": 131,
+      "vertices": 82
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_DIGITI_MINIMI_OF_HAND_R",
+      "morph_targets": [],
+      "polygons": 131,
+      "source_name": "Abductor digiti minimi of hand.r",
+      "triangles": 131,
+      "vertices": 82
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_HALLUCIS_L",
+      "morph_targets": [],
+      "polygons": 228,
+      "source_name": "Abductor hallucis.l",
+      "triangles": 228,
+      "vertices": 147
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_HALLUCIS_R",
+      "morph_targets": [],
+      "polygons": 228,
+      "source_name": "Abductor hallucis.r",
+      "triangles": 228,
+      "vertices": 147
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_POLLICIS_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 169,
+      "source_name": "Abductor pollicis brevis.l",
+      "triangles": 169,
+      "vertices": 92
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_POLLICIS_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 169,
+      "source_name": "Abductor pollicis brevis.r",
+      "triangles": 169,
+      "vertices": 92
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_POLLICIS_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 557,
+      "source_name": "Abductor pollicis longus.l",
+      "triangles": 557,
+      "vertices": 291
+    },
+    {
+      "model_node_name": "MUSCLE_ABDUCTOR_POLLICIS_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 557,
+      "source_name": "Abductor pollicis longus.r",
+      "triangles": 557,
+      "vertices": 291
+    },
+    {
+      "model_node_name": "MUSCLE_ACROMIAL_PART_OF_DELTOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 849,
+      "source_name": "Acromial part of deltoid muscle.l",
+      "triangles": 849,
+      "vertices": 440
+    },
+    {
+      "model_node_name": "MUSCLE_ACROMIAL_PART_OF_DELTOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 849,
+      "source_name": "Acromial part of deltoid muscle.r",
+      "triangles": 849,
+      "vertices": 440
+    },
+    {
+      "model_node_name": "MUSCLE_ADDUCTOR_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 638,
+      "source_name": "Adductor brevis.l",
+      "triangles": 638,
+      "vertices": 317
+    },
+    {
+      "model_node_name": "MUSCLE_ADDUCTOR_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 638,
+      "source_name": "Adductor brevis.r",
+      "triangles": 638,
+      "vertices": 317
+    },
+    {
+      "model_node_name": "MUSCLE_ADDUCTOR_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 907,
+      "source_name": "Adductor longus.l",
+      "triangles": 907,
+      "vertices": 480
+    },
+    {
+      "model_node_name": "MUSCLE_ADDUCTOR_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 907,
+      "source_name": "Adductor longus.r",
+      "triangles": 907,
+      "vertices": 480
+    },
+    {
+      "model_node_name": "MUSCLE_ADDUCTOR_MAGNUS_L",
+      "morph_targets": [],
+      "polygons": 1194,
+      "source_name": "Adductor magnus.l",
+      "triangles": 1194,
+      "vertices": 734
+    },
+    {
+      "model_node_name": "MUSCLE_ADDUCTOR_MAGNUS_R",
+      "morph_targets": [],
+      "polygons": 1194,
+      "source_name": "Adductor magnus.r",
+      "triangles": 1194,
+      "vertices": 734
+    },
+    {
+      "model_node_name": "MUSCLE_ADDUCTOR_MINIMUS_L",
+      "morph_targets": [],
+      "polygons": 284,
+      "source_name": "(Adductor minimus).l",
+      "triangles": 284,
+      "vertices": 144
+    },
+    {
+      "model_node_name": "MUSCLE_ADDUCTOR_MINIMUS_R",
+      "morph_targets": [],
+      "polygons": 284,
+      "source_name": "(Adductor minimus).r",
+      "triangles": 284,
+      "vertices": 144
+    },
+    {
+      "model_node_name": "MUSCLE_ANCONEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 271,
+      "source_name": "Anconeus muscle.l",
+      "triangles": 271,
+      "vertices": 176
+    },
+    {
+      "model_node_name": "MUSCLE_ANCONEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 271,
+      "source_name": "Anconeus muscle.r",
+      "triangles": 271,
+      "vertices": 176
+    },
+    {
+      "model_node_name": "MUSCLE_ANTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 116,
+      "source_name": "Anterior belly of digastric muscle.l",
+      "triangles": 116,
+      "vertices": 60
+    },
+    {
+      "model_node_name": "MUSCLE_ANTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 116,
+      "source_name": "Anterior belly of digastric muscle.r",
+      "triangles": 116,
+      "vertices": 60
+    },
+    {
+      "model_node_name": "MUSCLE_ARY_EPIGLOTTIC_PART_OF_OBLIQUE_ARYTENOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 306,
+      "source_name": "Ary-epiglottic part of oblique arytenoid muscle.l",
+      "triangles": 306,
+      "vertices": 155
+    },
+    {
+      "model_node_name": "MUSCLE_ARY_EPIGLOTTIC_PART_OF_OBLIQUE_ARYTENOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 306,
+      "source_name": "Ary-epiglottic part of oblique arytenoid muscle.r",
+      "triangles": 306,
+      "vertices": 155
+    },
+    {
+      "model_node_name": "MUSCLE_ASCENDING_PART_OF_TRAPEZIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 642,
+      "source_name": "Ascending part of trapezius muscle.l",
+      "triangles": 642,
+      "vertices": 461
+    },
+    {
+      "model_node_name": "MUSCLE_ASCENDING_PART_OF_TRAPEZIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 642,
+      "source_name": "Ascending part of trapezius muscle.r",
+      "triangles": 642,
+      "vertices": 461
+    },
+    {
+      "model_node_name": "MUSCLE_BRACHIALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 701,
+      "source_name": "Brachialis muscle.l",
+      "triangles": 701,
+      "vertices": 401
+    },
+    {
+      "model_node_name": "MUSCLE_BRACHIALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 701,
+      "source_name": "Brachialis muscle.r",
+      "triangles": 701,
+      "vertices": 401
+    },
+    {
+      "model_node_name": "MUSCLE_BRACHIORADIALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1520,
+      "source_name": "Brachioradialis muscle.l",
+      "triangles": 1520,
+      "vertices": 815
+    },
+    {
+      "model_node_name": "MUSCLE_BRACHIORADIALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1520,
+      "source_name": "Brachioradialis muscle.r",
+      "triangles": 1520,
+      "vertices": 815
+    },
+    {
+      "model_node_name": "MUSCLE_BUCINATOR_L",
+      "morph_targets": [],
+      "polygons": 264,
+      "source_name": "Bucinator.l",
+      "triangles": 264,
+      "vertices": 134
+    },
+    {
+      "model_node_name": "MUSCLE_BUCINATOR_R",
+      "morph_targets": [],
+      "polygons": 264,
+      "source_name": "Bucinator.r",
+      "triangles": 264,
+      "vertices": 134
+    },
+    {
+      "model_node_name": "MUSCLE_CLAVICULAR_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 212,
+      "source_name": "Clavicular head of pectoralis major muscle.l",
+      "triangles": 212,
+      "vertices": 115
+    },
+    {
+      "model_node_name": "MUSCLE_CLAVICULAR_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 212,
+      "source_name": "Clavicular head of pectoralis major muscle.r",
+      "triangles": 212,
+      "vertices": 115
+    },
+    {
+      "model_node_name": "MUSCLE_CLAVICULAR_PART_OF_DELTOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 829,
+      "source_name": "Clavicular part of deltoid muscle.l",
+      "triangles": 829,
+      "vertices": 425
+    },
+    {
+      "model_node_name": "MUSCLE_CLAVICULAR_PART_OF_DELTOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 829,
+      "source_name": "Clavicular part of deltoid muscle.r",
+      "triangles": 829,
+      "vertices": 425
+    },
+    {
+      "model_node_name": "MUSCLE_COCCYGEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 310,
+      "source_name": "Coccygeus muscle.l",
+      "triangles": 310,
+      "vertices": 159
+    },
+    {
+      "model_node_name": "MUSCLE_COCCYGEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 310,
+      "source_name": "Coccygeus muscle.r",
+      "triangles": 310,
+      "vertices": 159
+    },
+    {
+      "model_node_name": "MUSCLE_CORACOBRACHIALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 260,
+      "source_name": "Coracobrachialis muscle.l",
+      "triangles": 260,
+      "vertices": 151
+    },
+    {
+      "model_node_name": "MUSCLE_CORACOBRACHIALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 260,
+      "source_name": "Coracobrachialis muscle.r",
+      "triangles": 260,
+      "vertices": 151
+    },
+    {
+      "model_node_name": "MUSCLE_CORRUGATOR_SUPERCILII_L",
+      "morph_targets": [],
+      "polygons": 82,
+      "source_name": "Corrugator supercilii.l",
+      "triangles": 82,
+      "vertices": 43
+    },
+    {
+      "model_node_name": "MUSCLE_CORRUGATOR_SUPERCILII_R",
+      "morph_targets": [],
+      "polygons": 82,
+      "source_name": "Corrugator supercilii.r",
+      "triangles": 82,
+      "vertices": 43
+    },
+    {
+      "model_node_name": "MUSCLE_DEEP_HEAD_OF_FLEXOR_POLLICIS_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 197,
+      "source_name": "Deep head of flexor pollicis brevis.l",
+      "triangles": 197,
+      "vertices": 102
+    },
+    {
+      "model_node_name": "MUSCLE_DEEP_HEAD_OF_FLEXOR_POLLICIS_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 197,
+      "source_name": "Deep head of flexor pollicis brevis.r",
+      "triangles": 197,
+      "vertices": 102
+    },
+    {
+      "model_node_name": "MUSCLE_DEEP_HEAD_OF_PRONATOR_TERES_L",
+      "morph_targets": [],
+      "polygons": 300,
+      "source_name": "Deep head of pronator teres.l",
+      "triangles": 300,
+      "vertices": 165
+    },
+    {
+      "model_node_name": "MUSCLE_DEEP_HEAD_OF_PRONATOR_TERES_R",
+      "morph_targets": [],
+      "polygons": 300,
+      "source_name": "Deep head of pronator teres.r",
+      "triangles": 300,
+      "vertices": 165
+    },
+    {
+      "model_node_name": "MUSCLE_DEEP_PART_OF_MASSETER_L",
+      "morph_targets": [],
+      "polygons": 216,
+      "source_name": "Deep part of masseter.l",
+      "triangles": 216,
+      "vertices": 130
+    },
+    {
+      "model_node_name": "MUSCLE_DEEP_PART_OF_MASSETER_R",
+      "morph_targets": [],
+      "polygons": 216,
+      "source_name": "Deep part of masseter.r",
+      "triangles": 216,
+      "vertices": 130
+    },
+    {
+      "model_node_name": "MUSCLE_DEPRESSOR_ANGULI_ORIS_L",
+      "morph_targets": [],
+      "polygons": 38,
+      "source_name": "Depressor anguli oris.l",
+      "triangles": 38,
+      "vertices": 34
+    },
+    {
+      "model_node_name": "MUSCLE_DEPRESSOR_ANGULI_ORIS_R",
+      "morph_targets": [],
+      "polygons": 38,
+      "source_name": "Depressor anguli oris.r",
+      "triangles": 38,
+      "vertices": 34
+    },
+    {
+      "model_node_name": "MUSCLE_DEPRESSOR_LABII_INFERIORIS_L",
+      "morph_targets": [],
+      "polygons": 194,
+      "source_name": "Depressor labii inferioris.l",
+      "triangles": 194,
+      "vertices": 123
+    },
+    {
+      "model_node_name": "MUSCLE_DEPRESSOR_LABII_INFERIORIS_R",
+      "morph_targets": [],
+      "polygons": 194,
+      "source_name": "Depressor labii inferioris.r",
+      "triangles": 194,
+      "vertices": 123
+    },
+    {
+      "model_node_name": "MUSCLE_DEPRESSOR_SEPTI_NASI_L",
+      "morph_targets": [],
+      "polygons": 82,
+      "source_name": "Depressor septi nasi.l",
+      "triangles": 82,
+      "vertices": 43
+    },
+    {
+      "model_node_name": "MUSCLE_DEPRESSOR_SEPTI_NASI_R",
+      "morph_targets": [],
+      "polygons": 82,
+      "source_name": "Depressor septi nasi.r",
+      "triangles": 82,
+      "vertices": 43
+    },
+    {
+      "model_node_name": "MUSCLE_DESCENDING_PART_OF_TRAPEZIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1070,
+      "source_name": "Descending part of trapezius muscle.l",
+      "triangles": 1070,
+      "vertices": 699
+    },
+    {
+      "model_node_name": "MUSCLE_DESCENDING_PART_OF_TRAPEZIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1070,
+      "source_name": "Descending part of trapezius muscle.r",
+      "triangles": 1070,
+      "vertices": 699
+    },
+    {
+      "model_node_name": "MUSCLE_DIAPHRAGM",
+      "morph_targets": [],
+      "polygons": 10181,
+      "source_name": "Diaphragm",
+      "triangles": 10181,
+      "vertices": 5235
+    },
+    {
+      "model_node_name": "MUSCLE_DORSAL_INTEROSSEI_MUSCLES_OF_FOOT_L",
+      "morph_targets": [],
+      "polygons": 582,
+      "source_name": "Dorsal interossei muscles of foot.l",
+      "triangles": 582,
+      "vertices": 293
+    },
+    {
+      "model_node_name": "MUSCLE_DORSAL_INTEROSSEI_MUSCLES_OF_FOOT_R",
+      "morph_targets": [],
+      "polygons": 582,
+      "source_name": "Dorsal interossei muscles of foot.r",
+      "triangles": 582,
+      "vertices": 293
+    },
+    {
+      "model_node_name": "MUSCLE_DORSAL_INTEROSSEI_MUSCLES_OF_HAND_L",
+      "morph_targets": [],
+      "polygons": 309,
+      "source_name": "Dorsal interossei muscles of hand.l",
+      "triangles": 309,
+      "vertices": 180
+    },
+    {
+      "model_node_name": "MUSCLE_DORSAL_INTEROSSEI_MUSCLES_OF_HAND_R",
+      "morph_targets": [],
+      "polygons": 309,
+      "source_name": "Dorsal interossei muscles of hand.r",
+      "triangles": 309,
+      "vertices": 180
+    },
+    {
+      "model_node_name": "MUSCLE_DORSAL_PARTS_OF_LATERAL_INTERTRANSVERSARII_LU_L_3CF33FA2",
+      "morph_targets": [],
+      "polygons": 216,
+      "source_name": "Dorsal parts of lateral intertransversarii lumborum muscles.l",
+      "triangles": 216,
+      "vertices": 110
+    },
+    {
+      "model_node_name": "MUSCLE_DORSAL_PARTS_OF_LATERAL_INTERTRANSVERSARII_LU_R_C6FC02C1",
+      "morph_targets": [],
+      "polygons": 216,
+      "source_name": "Dorsal parts of lateral intertransversarii lumborum muscles.r",
+      "triangles": 216,
+      "vertices": 110
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_CARPI_RADIALIS_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 575,
+      "source_name": "Extensor carpi radialis brevis.l",
+      "triangles": 575,
+      "vertices": 323
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_CARPI_RADIALIS_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 575,
+      "source_name": "Extensor carpi radialis brevis.r",
+      "triangles": 575,
+      "vertices": 323
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_CARPI_RADIALIS_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 707,
+      "source_name": "Extensor carpi radialis longus.l",
+      "triangles": 707,
+      "vertices": 385
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_CARPI_RADIALIS_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 707,
+      "source_name": "Extensor carpi radialis longus.r",
+      "triangles": 707,
+      "vertices": 385
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_DIGITI_MINIMI_L",
+      "morph_targets": [],
+      "polygons": 415,
+      "source_name": "Extensor digiti minimi.l",
+      "triangles": 415,
+      "vertices": 221
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_DIGITI_MINIMI_R",
+      "morph_targets": [],
+      "polygons": 415,
+      "source_name": "Extensor digiti minimi.r",
+      "triangles": 415,
+      "vertices": 221
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_DIGITORUM_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 818,
+      "source_name": "Extensor digitorum brevis.l",
+      "triangles": 818,
+      "vertices": 477
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_DIGITORUM_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 818,
+      "source_name": "Extensor digitorum brevis.r",
+      "triangles": 818,
+      "vertices": 477
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_DIGITORUM_L",
+      "morph_targets": [],
+      "polygons": 714,
+      "source_name": "Extensor digitorum.l",
+      "triangles": 714,
+      "vertices": 392
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_DIGITORUM_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 815,
+      "source_name": "Extensor digitorum longus.l",
+      "triangles": 815,
+      "vertices": 416
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_DIGITORUM_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 815,
+      "source_name": "Extensor digitorum longus.r",
+      "triangles": 815,
+      "vertices": 416
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_DIGITORUM_R",
+      "morph_targets": [],
+      "polygons": 714,
+      "source_name": "Extensor digitorum.r",
+      "triangles": 714,
+      "vertices": 392
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_HALLUCIS_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 215,
+      "source_name": "Extensor hallucis brevis.l",
+      "triangles": 215,
+      "vertices": 114
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_HALLUCIS_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 215,
+      "source_name": "Extensor hallucis brevis.r",
+      "triangles": 215,
+      "vertices": 114
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_HALLUCIS_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 396,
+      "source_name": "Extensor hallucis longus.l",
+      "triangles": 396,
+      "vertices": 207
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_HALLUCIS_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 396,
+      "source_name": "Extensor hallucis longus.r",
+      "triangles": 396,
+      "vertices": 207
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_INDICIS_L",
+      "morph_targets": [],
+      "polygons": 213,
+      "source_name": "Extensor indicis.l",
+      "triangles": 213,
+      "vertices": 113
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_INDICIS_R",
+      "morph_targets": [],
+      "polygons": 213,
+      "source_name": "Extensor indicis.r",
+      "triangles": 213,
+      "vertices": 113
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_POLLICIS_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 208,
+      "source_name": "Extensor pollicis brevis.l",
+      "triangles": 208,
+      "vertices": 113
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_POLLICIS_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 208,
+      "source_name": "Extensor pollicis brevis.r",
+      "triangles": 208,
+      "vertices": 113
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_POLLICIS_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 293,
+      "source_name": "Extensor pollicis longus.l",
+      "triangles": 293,
+      "vertices": 152
+    },
+    {
+      "model_node_name": "MUSCLE_EXTENSOR_POLLICIS_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 293,
+      "source_name": "Extensor pollicis longus.r",
+      "triangles": 293,
+      "vertices": 152
+    },
+    {
+      "model_node_name": "MUSCLE_EXTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 8886,
+      "source_name": "External abdominal oblique muscle.l",
+      "triangles": 8886,
+      "vertices": 4443
+    },
+    {
+      "model_node_name": "MUSCLE_EXTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 8886,
+      "source_name": "External abdominal oblique muscle.r",
+      "triangles": 8886,
+      "vertices": 4443
+    },
+    {
+      "model_node_name": "MUSCLE_EXTERNAL_ANAL_SPHINCTER_L",
+      "morph_targets": [],
+      "polygons": 60,
+      "source_name": "External anal sphincter.l",
+      "triangles": 60,
+      "vertices": 32
+    },
+    {
+      "model_node_name": "MUSCLE_EXTERNAL_ANAL_SPHINCTER_R",
+      "morph_targets": [],
+      "polygons": 60,
+      "source_name": "External anal sphincter.r",
+      "triangles": 60,
+      "vertices": 32
+    },
+    {
+      "model_node_name": "MUSCLE_EXTERNAL_INTERCOSTAL_MUSCLES_L",
+      "morph_targets": [],
+      "polygons": 12421,
+      "source_name": "External intercostal muscles.l",
+      "triangles": 12421,
+      "vertices": 6169
+    },
+    {
+      "model_node_name": "MUSCLE_EXTERNAL_INTERCOSTAL_MUSCLES_R",
+      "morph_targets": [],
+      "polygons": 12421,
+      "source_name": "External intercostal muscles.r",
+      "triangles": 12421,
+      "vertices": 6169
+    },
+    {
+      "model_node_name": "MUSCLE_EXTERNAL_PART_OF_THYRO_ARYTENOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 670,
+      "source_name": "External part of thyro-arytenoid muscle.l",
+      "triangles": 670,
+      "vertices": 337
+    },
+    {
+      "model_node_name": "MUSCLE_EXTERNAL_PART_OF_THYRO_ARYTENOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 670,
+      "source_name": "External part of thyro-arytenoid muscle.r",
+      "triangles": 670,
+      "vertices": 337
+    },
+    {
+      "model_node_name": "MUSCLE_FIBULARIS_BREVIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 669,
+      "source_name": "Fibularis brevis muscle.l",
+      "triangles": 669,
+      "vertices": 347
+    },
+    {
+      "model_node_name": "MUSCLE_FIBULARIS_BREVIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 669,
+      "source_name": "Fibularis brevis muscle.r",
+      "triangles": 669,
+      "vertices": 347
+    },
+    {
+      "model_node_name": "MUSCLE_FIBULARIS_LONGUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1066,
+      "source_name": "Fibularis longus muscle.l",
+      "triangles": 1066,
+      "vertices": 522
+    },
+    {
+      "model_node_name": "MUSCLE_FIBULARIS_LONGUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1066,
+      "source_name": "Fibularis longus muscle.r",
+      "triangles": 1066,
+      "vertices": 522
+    },
+    {
+      "model_node_name": "MUSCLE_FIBULARIS_TERTIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 66,
+      "source_name": "Fibularis tertius muscle.l",
+      "triangles": 66,
+      "vertices": 41
+    },
+    {
+      "model_node_name": "MUSCLE_FIBULARIS_TERTIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 66,
+      "source_name": "Fibularis tertius muscle.r",
+      "triangles": 66,
+      "vertices": 41
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_CARPI_RADIALIS_L",
+      "morph_targets": [],
+      "polygons": 333,
+      "source_name": "Flexor carpi radialis.l",
+      "triangles": 333,
+      "vertices": 192
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_CARPI_RADIALIS_R",
+      "morph_targets": [],
+      "polygons": 333,
+      "source_name": "Flexor carpi radialis.r",
+      "triangles": 333,
+      "vertices": 192
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITI_MINIMI_OF_FOOT_L",
+      "morph_targets": [],
+      "polygons": 138,
+      "source_name": "Flexor digiti minimi of foot.l",
+      "triangles": 138,
+      "vertices": 67
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITI_MINIMI_OF_FOOT_R",
+      "morph_targets": [],
+      "polygons": 138,
+      "source_name": "Flexor digiti minimi of foot.r",
+      "triangles": 138,
+      "vertices": 67
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITI_MINIMI_OF_HAND_L",
+      "morph_targets": [],
+      "polygons": 59,
+      "source_name": "Flexor digiti minimi of hand.l",
+      "triangles": 59,
+      "vertices": 40
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITI_MINIMI_OF_HAND_R",
+      "morph_targets": [],
+      "polygons": 59,
+      "source_name": "Flexor digiti minimi of hand.r",
+      "triangles": 59,
+      "vertices": 40
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITORUM_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 374,
+      "source_name": "Flexor digitorum brevis.l",
+      "triangles": 374,
+      "vertices": 240
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITORUM_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 374,
+      "source_name": "Flexor digitorum brevis.r",
+      "triangles": 374,
+      "vertices": 240
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITORUM_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 874,
+      "source_name": "Flexor digitorum longus.l",
+      "triangles": 874,
+      "vertices": 454
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITORUM_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 874,
+      "source_name": "Flexor digitorum longus.r",
+      "triangles": 874,
+      "vertices": 454
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITORUM_PROFUNDUS_L",
+      "morph_targets": [],
+      "polygons": 1013,
+      "source_name": "Flexor digitorum profundus.l",
+      "triangles": 1013,
+      "vertices": 550
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_DIGITORUM_PROFUNDUS_R",
+      "morph_targets": [],
+      "polygons": 1013,
+      "source_name": "Flexor digitorum profundus.r",
+      "triangles": 1013,
+      "vertices": 550
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_HALLUCIS_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 1126,
+      "source_name": "Flexor hallucis longus.l",
+      "triangles": 1126,
+      "vertices": 581
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_HALLUCIS_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 1126,
+      "source_name": "Flexor hallucis longus.r",
+      "triangles": 1126,
+      "vertices": 581
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_POLLICIS_LONGUS_L",
+      "morph_targets": [],
+      "polygons": 320,
+      "source_name": "Flexor pollicis longus.l",
+      "triangles": 320,
+      "vertices": 168
+    },
+    {
+      "model_node_name": "MUSCLE_FLEXOR_POLLICIS_LONGUS_R",
+      "morph_targets": [],
+      "polygons": 320,
+      "source_name": "Flexor pollicis longus.r",
+      "triangles": 320,
+      "vertices": 168
+    },
+    {
+      "model_node_name": "MUSCLE_FRONTALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1733,
+      "source_name": "Frontalis muscle.l",
+      "triangles": 1733,
+      "vertices": 876
+    },
+    {
+      "model_node_name": "MUSCLE_FRONTALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1733,
+      "source_name": "Frontalis muscle.r",
+      "triangles": 1733,
+      "vertices": 876
+    },
+    {
+      "model_node_name": "MUSCLE_GENIOGLOSSUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1122,
+      "source_name": "Genioglossus muscle.l",
+      "triangles": 1122,
+      "vertices": 563
+    },
+    {
+      "model_node_name": "MUSCLE_GENIOGLOSSUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1122,
+      "source_name": "Genioglossus muscle.r",
+      "triangles": 1122,
+      "vertices": 563
+    },
+    {
+      "model_node_name": "MUSCLE_GENIOHYOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 158,
+      "source_name": "Geniohyoid muscle.l",
+      "triangles": 158,
+      "vertices": 81
+    },
+    {
+      "model_node_name": "MUSCLE_GENIOHYOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 158,
+      "source_name": "Geniohyoid muscle.r",
+      "triangles": 158,
+      "vertices": 81
+    },
+    {
+      "model_node_name": "MUSCLE_GLUTEUS_MAXIMUS_L",
+      "morph_targets": [
+        "Basis",
+        "Shorten",
+        "Lengthen"
+      ],
+      "polygons": 2260,
+      "source_name": "Gluteus maximus muscle.l",
+      "triangles": 2260,
+      "vertices": 1130
+    },
+    {
+      "model_node_name": "MUSCLE_GLUTEUS_MAXIMUS_R",
+      "morph_targets": [
+        "Basis",
+        "Shorten",
+        "Lengthen"
+      ],
+      "polygons": 2260,
+      "source_name": "Gluteus maximus muscle.r",
+      "triangles": 2260,
+      "vertices": 1130
+    },
+    {
+      "model_node_name": "MUSCLE_GLUTEUS_MEDIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1312,
+      "source_name": "Gluteus medius muscle.l",
+      "triangles": 1312,
+      "vertices": 702
+    },
+    {
+      "model_node_name": "MUSCLE_GLUTEUS_MEDIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1312,
+      "source_name": "Gluteus medius muscle.r",
+      "triangles": 1312,
+      "vertices": 702
+    },
+    {
+      "model_node_name": "MUSCLE_GLUTEUS_MINIMUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1874,
+      "source_name": "Gluteus minimus muscle.l",
+      "triangles": 1874,
+      "vertices": 939
+    },
+    {
+      "model_node_name": "MUSCLE_GLUTEUS_MINIMUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1874,
+      "source_name": "Gluteus minimus muscle.r",
+      "triangles": 1874,
+      "vertices": 939
+    },
+    {
+      "model_node_name": "MUSCLE_GRACILIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 885,
+      "source_name": "Gracilis muscle.l",
+      "triangles": 885,
+      "vertices": 476
+    },
+    {
+      "model_node_name": "MUSCLE_GRACILIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 885,
+      "source_name": "Gracilis muscle.r",
+      "triangles": 885,
+      "vertices": 476
+    },
+    {
+      "model_node_name": "MUSCLE_HUMERAL_HEAD_OF_EXTENSOR_CARPI_ULNARIS_L",
+      "morph_targets": [],
+      "polygons": 159,
+      "source_name": "Humeral head of extensor carpi ulnaris.l",
+      "triangles": 159,
+      "vertices": 82
+    },
+    {
+      "model_node_name": "MUSCLE_HUMERAL_HEAD_OF_EXTENSOR_CARPI_ULNARIS_R",
+      "morph_targets": [],
+      "polygons": 159,
+      "source_name": "Humeral head of extensor carpi ulnaris.r",
+      "triangles": 159,
+      "vertices": 82
+    },
+    {
+      "model_node_name": "MUSCLE_HUMERAL_HEAD_OF_FLEXOR_CARPI_ULNARIS_L",
+      "morph_targets": [],
+      "polygons": 727,
+      "source_name": "Humeral head of flexor carpi ulnaris.l",
+      "triangles": 727,
+      "vertices": 403
+    },
+    {
+      "model_node_name": "MUSCLE_HUMERAL_HEAD_OF_FLEXOR_CARPI_ULNARIS_R",
+      "morph_targets": [],
+      "polygons": 727,
+      "source_name": "Humeral head of flexor carpi ulnaris.r",
+      "triangles": 727,
+      "vertices": 403
+    },
+    {
+      "model_node_name": "MUSCLE_HUMERO_ULNAR_HEAD_OF_FLEXOR_DIGITORUM_SUPERFICIALIS_L",
+      "morph_targets": [],
+      "polygons": 1509,
+      "source_name": "Humero-ulnar head of flexor digitorum superficialis.l",
+      "triangles": 1509,
+      "vertices": 822
+    },
+    {
+      "model_node_name": "MUSCLE_HUMERO_ULNAR_HEAD_OF_FLEXOR_DIGITORUM_SUPERFICIALIS_R",
+      "morph_targets": [],
+      "polygons": 1509,
+      "source_name": "Humero-ulnar head of flexor digitorum superficialis.r",
+      "triangles": 1509,
+      "vertices": 822
+    },
+    {
+      "model_node_name": "MUSCLE_HYOGLOSSUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 426,
+      "source_name": "Hyoglossus muscle.l",
+      "triangles": 426,
+      "vertices": 215
+    },
+    {
+      "model_node_name": "MUSCLE_HYOGLOSSUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 426,
+      "source_name": "Hyoglossus muscle.r",
+      "triangles": 426,
+      "vertices": 215
+    },
+    {
+      "model_node_name": "MUSCLE_ILIACUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1154,
+      "source_name": "Iliacus muscle.l",
+      "triangles": 1154,
+      "vertices": 597
+    },
+    {
+      "model_node_name": "MUSCLE_ILIACUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1154,
+      "source_name": "Iliacus muscle.r",
+      "triangles": 1154,
+      "vertices": 597
+    },
+    {
+      "model_node_name": "MUSCLE_ILIOCOCCYGEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 588,
+      "source_name": "Iliococcygeus muscle.l",
+      "triangles": 588,
+      "vertices": 292
+    },
+    {
+      "model_node_name": "MUSCLE_ILIOCOCCYGEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 588,
+      "source_name": "Iliococcygeus muscle.r",
+      "triangles": 588,
+      "vertices": 292
+    },
+    {
+      "model_node_name": "MUSCLE_ILIOCOSTALIS_COLLI_MUSCLE",
+      "morph_targets": [],
+      "polygons": 614,
+      "source_name": "Iliocostalis colli muscle",
+      "triangles": 614,
+      "vertices": 309
+    },
+    {
+      "model_node_name": "MUSCLE_ILIOCOSTALIS_COLLI_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 614,
+      "source_name": "Iliocostalis colli muscle.r",
+      "triangles": 614,
+      "vertices": 309
+    },
+    {
+      "model_node_name": "MUSCLE_ILIOCOSTALIS_LUMBORUM_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 3010,
+      "source_name": "Iliocostalis lumborum muscle.l",
+      "triangles": 3010,
+      "vertices": 1505
+    },
+    {
+      "model_node_name": "MUSCLE_ILIOCOSTALIS_LUMBORUM_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 3010,
+      "source_name": "Iliocostalis lumborum muscle.r",
+      "triangles": 3010,
+      "vertices": 1505
+    },
+    {
+      "model_node_name": "MUSCLE_ILIOCOSTALIS_THORACIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1730,
+      "source_name": "Iliocostalis thoracis muscle.l",
+      "triangles": 1730,
+      "vertices": 867
+    },
+    {
+      "model_node_name": "MUSCLE_ILIOCOSTALIS_THORACIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1730,
+      "source_name": "Iliocostalis thoracis muscle.r",
+      "triangles": 1730,
+      "vertices": 867
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_GEMELLUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 161,
+      "source_name": "Inferior gemellus muscle.l",
+      "triangles": 161,
+      "vertices": 101
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_GEMELLUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 161,
+      "source_name": "Inferior gemellus muscle.r",
+      "triangles": 161,
+      "vertices": 101
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 96,
+      "source_name": "Inferior head of lateral pterygoid muscle.l",
+      "triangles": 96,
+      "vertices": 49
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 96,
+      "source_name": "Inferior head of lateral pterygoid muscle.r",
+      "triangles": 96,
+      "vertices": 49
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_OBLIQUE_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 344,
+      "source_name": "Inferior oblique muscle.l",
+      "triangles": 344,
+      "vertices": 174
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_OBLIQUE_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 344,
+      "source_name": "Inferior oblique muscle.r",
+      "triangles": 344,
+      "vertices": 174
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_PHARYNGEAL_CONSTRICTOR_L",
+      "morph_targets": [],
+      "polygons": 1108,
+      "source_name": "Inferior pharyngeal constrictor.l",
+      "triangles": 1108,
+      "vertices": 556
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_PHARYNGEAL_CONSTRICTOR_R",
+      "morph_targets": [],
+      "polygons": 1108,
+      "source_name": "Inferior pharyngeal constrictor.r",
+      "triangles": 1108,
+      "vertices": 556
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_RECTUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 520,
+      "source_name": "Inferior rectus muscle.l",
+      "triangles": 520,
+      "vertices": 262
+    },
+    {
+      "model_node_name": "MUSCLE_INFERIOR_RECTUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 520,
+      "source_name": "Inferior rectus muscle.r",
+      "triangles": 520,
+      "vertices": 262
+    },
+    {
+      "model_node_name": "MUSCLE_INFRASPINATUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 793,
+      "source_name": "Infraspinatus muscle.l",
+      "triangles": 793,
+      "vertices": 417
+    },
+    {
+      "model_node_name": "MUSCLE_INFRASPINATUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 793,
+      "source_name": "Infraspinatus muscle.r",
+      "triangles": 793,
+      "vertices": 417
+    },
+    {
+      "model_node_name": "MUSCLE_INNERMOST_INTERCOSTAL_MUSCLES_L",
+      "morph_targets": [],
+      "polygons": 11476,
+      "source_name": "Innermost intercostal muscles.l",
+      "triangles": 11476,
+      "vertices": 5702
+    },
+    {
+      "model_node_name": "MUSCLE_INNERMOST_INTERCOSTAL_MUSCLES_R",
+      "morph_targets": [],
+      "polygons": 11476,
+      "source_name": "Innermost intercostal muscles.r",
+      "triangles": 11476,
+      "vertices": 5702
+    },
+    {
+      "model_node_name": "MUSCLE_INTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 8660,
+      "source_name": "Internal abdominal oblique muscle.l",
+      "triangles": 8660,
+      "vertices": 4306
+    },
+    {
+      "model_node_name": "MUSCLE_INTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 8660,
+      "source_name": "Internal abdominal oblique muscle.r",
+      "triangles": 8660,
+      "vertices": 4306
+    },
+    {
+      "model_node_name": "MUSCLE_INTERNAL_INTERCOSTAL_MUSCLES_L",
+      "morph_targets": [],
+      "polygons": 12054,
+      "source_name": "Internal intercostal muscles.l",
+      "triangles": 12054,
+      "vertices": 5984
+    },
+    {
+      "model_node_name": "MUSCLE_INTERNAL_INTERCOSTAL_MUSCLES_R",
+      "morph_targets": [],
+      "polygons": 12054,
+      "source_name": "Internal intercostal muscles.r",
+      "triangles": 12054,
+      "vertices": 5984
+    },
+    {
+      "model_node_name": "MUSCLE_INTERSPINALES_COLLI_MUSCLES_L",
+      "morph_targets": [],
+      "polygons": 132,
+      "source_name": "Interspinales colli muscles.l",
+      "triangles": 132,
+      "vertices": 78
+    },
+    {
+      "model_node_name": "MUSCLE_INTERSPINALES_COLLI_MUSCLES_R",
+      "morph_targets": [],
+      "polygons": 132,
+      "source_name": "Interspinales colli muscles.r",
+      "triangles": 132,
+      "vertices": 78
+    },
+    {
+      "model_node_name": "MUSCLE_INTERSPINALES_LUMBORUM_MUSCLES_L",
+      "morph_targets": [],
+      "polygons": 168,
+      "source_name": "Interspinales lumborum muscles.l",
+      "triangles": 168,
+      "vertices": 94
+    },
+    {
+      "model_node_name": "MUSCLE_INTERSPINALES_LUMBORUM_MUSCLES_R",
+      "morph_targets": [],
+      "polygons": 168,
+      "source_name": "Interspinales lumborum muscles.r",
+      "triangles": 168,
+      "vertices": 94
+    },
+    {
+      "model_node_name": "MUSCLE_INTERSPINALES_THORACIS_MUSCLES_L",
+      "morph_targets": [],
+      "polygons": 58,
+      "source_name": "Interspinales thoracis muscles.l",
+      "triangles": 58,
+      "vertices": 33
+    },
+    {
+      "model_node_name": "MUSCLE_INTERSPINALES_THORACIS_MUSCLES_R",
+      "morph_targets": [],
+      "polygons": 58,
+      "source_name": "Interspinales thoracis muscles.r",
+      "triangles": 58,
+      "vertices": 33
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_CRICO_ARYTENOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 485,
+      "source_name": "Lateral crico-arytenoid muscle.l",
+      "triangles": 485,
+      "vertices": 246
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_CRICO_ARYTENOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 485,
+      "source_name": "Lateral crico-arytenoid muscle.r",
+      "triangles": 485,
+      "vertices": 246
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_HEAD_OF_FLEXOR_HALLUCIS_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 288,
+      "source_name": "Lateral head of flexor hallucis brevis.l",
+      "triangles": 288,
+      "vertices": 142
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_HEAD_OF_FLEXOR_HALLUCIS_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 288,
+      "source_name": "Lateral head of flexor hallucis brevis.r",
+      "triangles": 288,
+      "vertices": 142
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_HEAD_OF_GASTROCNEMIUS_L",
+      "morph_targets": [],
+      "polygons": 1143,
+      "source_name": "Lateral head of gastrocnemius.l",
+      "triangles": 1143,
+      "vertices": 609
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_HEAD_OF_GASTROCNEMIUS_R",
+      "morph_targets": [],
+      "polygons": 1143,
+      "source_name": "Lateral head of gastrocnemius.r",
+      "triangles": 1143,
+      "vertices": 609
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_HEAD_OF_TRICEPS_BRACHII_L",
+      "morph_targets": [],
+      "polygons": 878,
+      "source_name": "Lateral head of triceps brachii.l",
+      "triangles": 878,
+      "vertices": 482
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_HEAD_OF_TRICEPS_BRACHII_R",
+      "morph_targets": [],
+      "polygons": 878,
+      "source_name": "Lateral head of triceps brachii.r",
+      "triangles": 878,
+      "vertices": 482
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_RECTUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 480,
+      "source_name": "Lateral rectus muscle.l",
+      "triangles": 480,
+      "vertices": 242
+    },
+    {
+      "model_node_name": "MUSCLE_LATERAL_RECTUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 480,
+      "source_name": "Lateral rectus muscle.r",
+      "triangles": 480,
+      "vertices": 242
+    },
+    {
+      "model_node_name": "MUSCLE_LATISSIMUS_DORSI_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 4638,
+      "source_name": "Latissimus dorsi muscle.l",
+      "triangles": 4638,
+      "vertices": 2688
+    },
+    {
+      "model_node_name": "MUSCLE_LATISSIMUS_DORSI_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 4638,
+      "source_name": "Latissimus dorsi muscle.r",
+      "triangles": 4638,
+      "vertices": 2688
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATORES_BREVES_COSTARUM_L",
+      "morph_targets": [],
+      "polygons": 806,
+      "source_name": "Levatores breves costarum.l",
+      "triangles": 806,
+      "vertices": 418
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATORES_BREVES_COSTARUM_R",
+      "morph_targets": [],
+      "polygons": 806,
+      "source_name": "Levatores breves costarum.r",
+      "triangles": 806,
+      "vertices": 418
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATORES_LONGI_COSTARUM_L",
+      "morph_targets": [],
+      "polygons": 1778,
+      "source_name": "Levatores longi costarum.l",
+      "triangles": 1778,
+      "vertices": 917
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATORES_LONGI_COSTARUM_R",
+      "morph_targets": [],
+      "polygons": 1778,
+      "source_name": "Levatores longi costarum.r",
+      "triangles": 1778,
+      "vertices": 917
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_ANGULI_ORIS_L",
+      "morph_targets": [],
+      "polygons": 98,
+      "source_name": "Levator anguli oris.l",
+      "triangles": 98,
+      "vertices": 49
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_ANGULI_ORIS_R",
+      "morph_targets": [],
+      "polygons": 98,
+      "source_name": "Levator anguli oris.r",
+      "triangles": 98,
+      "vertices": 49
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_LABII_SUPERIORIS_L",
+      "morph_targets": [],
+      "polygons": 162,
+      "source_name": "Levator labii superioris.l",
+      "triangles": 162,
+      "vertices": 83
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_LABII_SUPERIORIS_R",
+      "morph_targets": [],
+      "polygons": 162,
+      "source_name": "Levator labii superioris.r",
+      "triangles": 162,
+      "vertices": 83
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_NASOLABIALIS_L",
+      "morph_targets": [],
+      "polygons": 24,
+      "source_name": "Levator nasolabialis.l",
+      "triangles": 24,
+      "vertices": 22
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_NASOLABIALIS_R",
+      "morph_targets": [],
+      "polygons": 24,
+      "source_name": "Levator nasolabialis.r",
+      "triangles": 24,
+      "vertices": 22
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_PALPEBRAE_SUPERIORIS_L",
+      "morph_targets": [],
+      "polygons": 644,
+      "source_name": "Levator palpebrae superioris.l",
+      "triangles": 644,
+      "vertices": 325
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_PALPEBRAE_SUPERIORIS_R",
+      "morph_targets": [],
+      "polygons": 644,
+      "source_name": "Levator palpebrae superioris.r",
+      "triangles": 644,
+      "vertices": 325
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_SCAPULAE_L",
+      "morph_targets": [],
+      "polygons": 502,
+      "source_name": "Levator scapulae.l",
+      "triangles": 502,
+      "vertices": 325
+    },
+    {
+      "model_node_name": "MUSCLE_LEVATOR_SCAPULAE_R",
+      "morph_targets": [],
+      "polygons": 502,
+      "source_name": "Levator scapulae.r",
+      "triangles": 502,
+      "vertices": 325
+    },
+    {
+      "model_node_name": "MUSCLE_LONGISSIMUS_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 470,
+      "source_name": "Longissimus capitis muscle.l",
+      "triangles": 470,
+      "vertices": 233
+    },
+    {
+      "model_node_name": "MUSCLE_LONGISSIMUS_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 470,
+      "source_name": "Longissimus capitis muscle.r",
+      "triangles": 470,
+      "vertices": 233
+    },
+    {
+      "model_node_name": "MUSCLE_LONGISSIMUS_COLLI_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 546,
+      "source_name": "Longissimus colli muscle.l",
+      "triangles": 546,
+      "vertices": 275
+    },
+    {
+      "model_node_name": "MUSCLE_LONGISSIMUS_COLLI_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 546,
+      "source_name": "Longissimus colli muscle.r",
+      "triangles": 546,
+      "vertices": 275
+    },
+    {
+      "model_node_name": "MUSCLE_LONGISSIMUS_THORACIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 2894,
+      "source_name": "Longissimus thoracis muscle.l",
+      "triangles": 2894,
+      "vertices": 1439
+    },
+    {
+      "model_node_name": "MUSCLE_LONGISSIMUS_THORACIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 2894,
+      "source_name": "Longissimus thoracis muscle.r",
+      "triangles": 2894,
+      "vertices": 1439
+    },
+    {
+      "model_node_name": "MUSCLE_LONGUS_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 594,
+      "source_name": "Longus capitis muscle.l",
+      "triangles": 594,
+      "vertices": 295
+    },
+    {
+      "model_node_name": "MUSCLE_LONGUS_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 594,
+      "source_name": "Longus capitis muscle.r",
+      "triangles": 594,
+      "vertices": 295
+    },
+    {
+      "model_node_name": "MUSCLE_LONGUS_COLLI_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1888,
+      "source_name": "Longus colli muscle.l",
+      "triangles": 1888,
+      "vertices": 951
+    },
+    {
+      "model_node_name": "MUSCLE_LONGUS_COLLI_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1888,
+      "source_name": "Longus colli muscle.r",
+      "triangles": 1888,
+      "vertices": 951
+    },
+    {
+      "model_node_name": "MUSCLE_LONG_HEAD_OF_BICEPS_BRACHII_L",
+      "morph_targets": [],
+      "polygons": 620,
+      "source_name": "Long head of biceps brachii.l",
+      "triangles": 620,
+      "vertices": 340
+    },
+    {
+      "model_node_name": "MUSCLE_LONG_HEAD_OF_BICEPS_BRACHII_R",
+      "morph_targets": [],
+      "polygons": 620,
+      "source_name": "Long head of biceps brachii.r",
+      "triangles": 620,
+      "vertices": 340
+    },
+    {
+      "model_node_name": "MUSCLE_LONG_HEAD_OF_BICEPS_FEMORIS_L",
+      "morph_targets": [],
+      "polygons": 1624,
+      "source_name": "Long head of biceps femoris.l",
+      "triangles": 1624,
+      "vertices": 875
+    },
+    {
+      "model_node_name": "MUSCLE_LONG_HEAD_OF_BICEPS_FEMORIS_R",
+      "morph_targets": [],
+      "polygons": 1624,
+      "source_name": "Long head of biceps femoris.r",
+      "triangles": 1624,
+      "vertices": 875
+    },
+    {
+      "model_node_name": "MUSCLE_LONG_HEAD_OF_TRICEPS_BRACHII_L",
+      "morph_targets": [],
+      "polygons": 743,
+      "source_name": "Long head of triceps brachii.l",
+      "triangles": 743,
+      "vertices": 418
+    },
+    {
+      "model_node_name": "MUSCLE_LONG_HEAD_OF_TRICEPS_BRACHII_R",
+      "morph_targets": [],
+      "polygons": 743,
+      "source_name": "Long head of triceps brachii.r",
+      "triangles": 743,
+      "vertices": 418
+    },
+    {
+      "model_node_name": "MUSCLE_LUMBRICAL_MUSCLES_OF_FOOT_L",
+      "morph_targets": [],
+      "polygons": 124,
+      "source_name": "Lumbrical muscles of foot.l",
+      "triangles": 124,
+      "vertices": 60
+    },
+    {
+      "model_node_name": "MUSCLE_LUMBRICAL_MUSCLES_OF_FOOT_R",
+      "morph_targets": [],
+      "polygons": 124,
+      "source_name": "Lumbrical muscles of foot.r",
+      "triangles": 124,
+      "vertices": 60
+    },
+    {
+      "model_node_name": "MUSCLE_LUMBRICAL_MUSCLES_OF_HAND_L",
+      "morph_targets": [],
+      "polygons": 238,
+      "source_name": "Lumbrical muscles of hand.l",
+      "triangles": 238,
+      "vertices": 143
+    },
+    {
+      "model_node_name": "MUSCLE_LUMBRICAL_MUSCLES_OF_HAND_R",
+      "morph_targets": [],
+      "polygons": 238,
+      "source_name": "Lumbrical muscles of hand.r",
+      "triangles": 238,
+      "vertices": 143
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_HEAD_OF_FLEXOR_HALLUCIS_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 154,
+      "source_name": "Medial head of flexor hallucis brevis.l",
+      "triangles": 154,
+      "vertices": 79
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_HEAD_OF_FLEXOR_HALLUCIS_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 154,
+      "source_name": "Medial head of flexor hallucis brevis.r",
+      "triangles": 154,
+      "vertices": 79
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_HEAD_OF_GASTROCNEMIUS_L",
+      "morph_targets": [],
+      "polygons": 1306,
+      "source_name": "Medial head of gastrocnemius.l",
+      "triangles": 1306,
+      "vertices": 696
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_HEAD_OF_GASTROCNEMIUS_R",
+      "morph_targets": [],
+      "polygons": 1306,
+      "source_name": "Medial head of gastrocnemius.r",
+      "triangles": 1306,
+      "vertices": 696
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_HEAD_OF_TRICEPS_BRACHII_L",
+      "morph_targets": [],
+      "polygons": 588,
+      "source_name": "Medial head of triceps brachii.l",
+      "triangles": 588,
+      "vertices": 324
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_HEAD_OF_TRICEPS_BRACHII_R",
+      "morph_targets": [],
+      "polygons": 588,
+      "source_name": "Medial head of triceps brachii.r",
+      "triangles": 588,
+      "vertices": 324
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_PTERYGOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 148,
+      "source_name": "Medial pterygoid muscle.l",
+      "triangles": 148,
+      "vertices": 75
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_PTERYGOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 148,
+      "source_name": "Medial pterygoid muscle.r",
+      "triangles": 148,
+      "vertices": 75
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_RECTUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 374,
+      "source_name": "Medial rectus muscle.l",
+      "triangles": 374,
+      "vertices": 189
+    },
+    {
+      "model_node_name": "MUSCLE_MEDIAL_RECTUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 374,
+      "source_name": "Medial rectus muscle.r",
+      "triangles": 374,
+      "vertices": 189
+    },
+    {
+      "model_node_name": "MUSCLE_MENTALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 26,
+      "source_name": "Mentalis muscle.l",
+      "triangles": 26,
+      "vertices": 19
+    },
+    {
+      "model_node_name": "MUSCLE_MENTALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 26,
+      "source_name": "Mentalis muscle.r",
+      "triangles": 26,
+      "vertices": 19
+    },
+    {
+      "model_node_name": "MUSCLE_MIDDLE_PHARYNGEAL_CONSTRICTOR_L",
+      "morph_targets": [],
+      "polygons": 884,
+      "source_name": "Middle pharyngeal constrictor.l",
+      "triangles": 884,
+      "vertices": 444
+    },
+    {
+      "model_node_name": "MUSCLE_MIDDLE_PHARYNGEAL_CONSTRICTOR_R",
+      "morph_targets": [],
+      "polygons": 884,
+      "source_name": "Middle pharyngeal constrictor.r",
+      "triangles": 884,
+      "vertices": 444
+    },
+    {
+      "model_node_name": "MUSCLE_MULTIFIDUS_COLLI_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 416,
+      "source_name": "Multifidus colli muscle.l",
+      "triangles": 416,
+      "vertices": 209
+    },
+    {
+      "model_node_name": "MUSCLE_MULTIFIDUS_COLLI_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 416,
+      "source_name": "Multifidus colli muscle.r",
+      "triangles": 416,
+      "vertices": 209
+    },
+    {
+      "model_node_name": "MUSCLE_MULTIFIDUS_LUMBORUM_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 846,
+      "source_name": "Multifidus lumborum muscle.l",
+      "triangles": 846,
+      "vertices": 426
+    },
+    {
+      "model_node_name": "MUSCLE_MULTIFIDUS_LUMBORUM_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 846,
+      "source_name": "Multifidus lumborum muscle.r",
+      "triangles": 846,
+      "vertices": 426
+    },
+    {
+      "model_node_name": "MUSCLE_MULTIFIDUS_THORACIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1170,
+      "source_name": "Multifidus thoracis muscle.l",
+      "triangles": 1170,
+      "vertices": 621
+    },
+    {
+      "model_node_name": "MUSCLE_MULTIFIDUS_THORACIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1170,
+      "source_name": "Multifidus thoracis muscle.r",
+      "triangles": 1170,
+      "vertices": 621
+    },
+    {
+      "model_node_name": "MUSCLE_MYLOHYOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 336,
+      "source_name": "Mylohyoid muscle.l",
+      "triangles": 336,
+      "vertices": 168
+    },
+    {
+      "model_node_name": "MUSCLE_MYLOHYOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 336,
+      "source_name": "Mylohyoid muscle.r",
+      "triangles": 336,
+      "vertices": 168
+    },
+    {
+      "model_node_name": "MUSCLE_NASALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 138,
+      "source_name": "Nasalis muscle.l",
+      "triangles": 138,
+      "vertices": 92
+    },
+    {
+      "model_node_name": "MUSCLE_NASALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 138,
+      "source_name": "Nasalis muscle.r",
+      "triangles": 138,
+      "vertices": 92
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUE_HEAD_OF_ADDUCTOR_HALLUCIS_L",
+      "morph_targets": [],
+      "polygons": 270,
+      "source_name": "Oblique head of adductor hallucis.l",
+      "triangles": 270,
+      "vertices": 137
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUE_HEAD_OF_ADDUCTOR_HALLUCIS_R",
+      "morph_targets": [],
+      "polygons": 270,
+      "source_name": "Oblique head of adductor hallucis.r",
+      "triangles": 270,
+      "vertices": 137
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUE_HEAD_OF_ADDUCTOR_POLLICIS_L",
+      "morph_targets": [],
+      "polygons": 116,
+      "source_name": "Oblique head of adductor pollicis.l",
+      "triangles": 116,
+      "vertices": 62
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUE_HEAD_OF_ADDUCTOR_POLLICIS_R",
+      "morph_targets": [],
+      "polygons": 116,
+      "source_name": "Oblique head of adductor pollicis.r",
+      "triangles": 116,
+      "vertices": 62
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUE_PART_OF_CRICOTHYROID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 618,
+      "source_name": "Oblique part of cricothyroid muscle.l",
+      "triangles": 618,
+      "vertices": 311
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUE_PART_OF_CRICOTHYROID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 618,
+      "source_name": "Oblique part of cricothyroid muscle.r",
+      "triangles": 618,
+      "vertices": 311
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUUS_INFERIOR_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 162,
+      "source_name": "Obliquus inferior capitis muscle.l",
+      "triangles": 162,
+      "vertices": 83
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUUS_INFERIOR_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 162,
+      "source_name": "Obliquus inferior capitis muscle.r",
+      "triangles": 162,
+      "vertices": 83
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUUS_SUPERIOR_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 196,
+      "source_name": "Obliquus superior capitis muscle.l",
+      "triangles": 196,
+      "vertices": 96
+    },
+    {
+      "model_node_name": "MUSCLE_OBLIQUUS_SUPERIOR_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 196,
+      "source_name": "Obliquus superior capitis muscle.r",
+      "triangles": 196,
+      "vertices": 96
+    },
+    {
+      "model_node_name": "MUSCLE_OBTURATOR_EXTERNUS_L",
+      "morph_targets": [],
+      "polygons": 346,
+      "source_name": "Obturator externus.l",
+      "triangles": 346,
+      "vertices": 177
+    },
+    {
+      "model_node_name": "MUSCLE_OBTURATOR_EXTERNUS_R",
+      "morph_targets": [],
+      "polygons": 346,
+      "source_name": "Obturator externus.r",
+      "triangles": 346,
+      "vertices": 177
+    },
+    {
+      "model_node_name": "MUSCLE_OBTURATOR_INTERNUS_L",
+      "morph_targets": [],
+      "polygons": 819,
+      "source_name": "Obturator internus.l",
+      "triangles": 819,
+      "vertices": 429
+    },
+    {
+      "model_node_name": "MUSCLE_OBTURATOR_INTERNUS_R",
+      "morph_targets": [],
+      "polygons": 819,
+      "source_name": "Obturator internus.r",
+      "triangles": 819,
+      "vertices": 429
+    },
+    {
+      "model_node_name": "MUSCLE_OCCIPITALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 780,
+      "source_name": "Occipitalis muscle.l",
+      "triangles": 780,
+      "vertices": 386
+    },
+    {
+      "model_node_name": "MUSCLE_OCCIPITALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 780,
+      "source_name": "Occipitalis muscle.r",
+      "triangles": 780,
+      "vertices": 386
+    },
+    {
+      "model_node_name": "MUSCLE_OMOHYOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 810,
+      "source_name": "Omohyoid muscle.l",
+      "triangles": 810,
+      "vertices": 407
+    },
+    {
+      "model_node_name": "MUSCLE_OMOHYOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 810,
+      "source_name": "Omohyoid muscle.r",
+      "triangles": 810,
+      "vertices": 407
+    },
+    {
+      "model_node_name": "MUSCLE_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_FOOT_L",
+      "morph_targets": [],
+      "polygons": 70,
+      "source_name": "(Opponens digiti minimi muscle of foot).l",
+      "triangles": 70,
+      "vertices": 37
+    },
+    {
+      "model_node_name": "MUSCLE_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_FOOT_R",
+      "morph_targets": [],
+      "polygons": 70,
+      "source_name": "(Opponens digiti minimi muscle of foot).r",
+      "triangles": 70,
+      "vertices": 37
+    },
+    {
+      "model_node_name": "MUSCLE_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_HAND_L",
+      "morph_targets": [],
+      "polygons": 78,
+      "source_name": "Opponens digiti minimi muscle of hand.l",
+      "triangles": 78,
+      "vertices": 58
+    },
+    {
+      "model_node_name": "MUSCLE_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_HAND_R",
+      "morph_targets": [],
+      "polygons": 78,
+      "source_name": "Opponens digiti minimi muscle of hand.r",
+      "triangles": 78,
+      "vertices": 58
+    },
+    {
+      "model_node_name": "MUSCLE_OPPONENS_POLLICIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 105,
+      "source_name": "Opponens pollicis muscle.l",
+      "triangles": 105,
+      "vertices": 59
+    },
+    {
+      "model_node_name": "MUSCLE_OPPONENS_POLLICIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 105,
+      "source_name": "Opponens pollicis muscle.r",
+      "triangles": 105,
+      "vertices": 59
+    },
+    {
+      "model_node_name": "MUSCLE_ORBICULARIS_ORIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 564,
+      "source_name": "Orbicularis oris muscle.l",
+      "triangles": 564,
+      "vertices": 282
+    },
+    {
+      "model_node_name": "MUSCLE_ORBICULARIS_ORIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 564,
+      "source_name": "Orbicularis oris muscle.r",
+      "triangles": 564,
+      "vertices": 282
+    },
+    {
+      "model_node_name": "MUSCLE_ORBITAL_PART_OF_ORBICULARIS_OCULI_L",
+      "morph_targets": [],
+      "polygons": 716,
+      "source_name": "Orbital part of orbicularis oculi.l",
+      "triangles": 716,
+      "vertices": 358
+    },
+    {
+      "model_node_name": "MUSCLE_ORBITAL_PART_OF_ORBICULARIS_OCULI_R",
+      "morph_targets": [],
+      "polygons": 716,
+      "source_name": "Orbital part of orbicularis oculi.r",
+      "triangles": 716,
+      "vertices": 358
+    },
+    {
+      "model_node_name": "MUSCLE_PALATOPHARYNGEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 4584,
+      "source_name": "Palatopharyngeus muscle.l",
+      "triangles": 4584,
+      "vertices": 2293
+    },
+    {
+      "model_node_name": "MUSCLE_PALATOPHARYNGEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 4584,
+      "source_name": "Palatopharyngeus muscle.r",
+      "triangles": 4584,
+      "vertices": 2293
+    },
+    {
+      "model_node_name": "MUSCLE_PALMARIS_LONGUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 373,
+      "source_name": "Palmaris longus muscle.l",
+      "triangles": 373,
+      "vertices": 207
+    },
+    {
+      "model_node_name": "MUSCLE_PALMARIS_LONGUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 373,
+      "source_name": "Palmaris longus muscle.r",
+      "triangles": 373,
+      "vertices": 207
+    },
+    {
+      "model_node_name": "MUSCLE_PALMAR_INTEROSSEI_MUSCLES_L",
+      "morph_targets": [],
+      "polygons": 52,
+      "source_name": "Palmar interossei muscles.l",
+      "triangles": 52,
+      "vertices": 26
+    },
+    {
+      "model_node_name": "MUSCLE_PALMAR_INTEROSSEI_MUSCLES_R",
+      "morph_targets": [],
+      "polygons": 52,
+      "source_name": "Palmar interossei muscles.r",
+      "triangles": 52,
+      "vertices": 26
+    },
+    {
+      "model_node_name": "MUSCLE_PALPEBRAL_PART_OF_ORBICULARIS_OCULI_L",
+      "morph_targets": [],
+      "polygons": 248,
+      "source_name": "Palpebral part of orbicularis oculi.l",
+      "triangles": 248,
+      "vertices": 124
+    },
+    {
+      "model_node_name": "MUSCLE_PALPEBRAL_PART_OF_ORBICULARIS_OCULI_R",
+      "morph_targets": [],
+      "polygons": 248,
+      "source_name": "Palpebral part of orbicularis oculi.r",
+      "triangles": 248,
+      "vertices": 124
+    },
+    {
+      "model_node_name": "MUSCLE_PECTINEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 325,
+      "source_name": "Pectineus muscle.l",
+      "triangles": 325,
+      "vertices": 214
+    },
+    {
+      "model_node_name": "MUSCLE_PECTINEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 325,
+      "source_name": "Pectineus muscle.r",
+      "triangles": 325,
+      "vertices": 214
+    },
+    {
+      "model_node_name": "MUSCLE_PECTORALIS_MINOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1242,
+      "source_name": "Pectoralis minor muscle.l",
+      "triangles": 1242,
+      "vertices": 617
+    },
+    {
+      "model_node_name": "MUSCLE_PECTORALIS_MINOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1242,
+      "source_name": "Pectoralis minor muscle.r",
+      "triangles": 1242,
+      "vertices": 617
+    },
+    {
+      "model_node_name": "MUSCLE_PIRIFORMIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 448,
+      "source_name": "Piriformis muscle.l",
+      "triangles": 448,
+      "vertices": 226
+    },
+    {
+      "model_node_name": "MUSCLE_PIRIFORMIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 448,
+      "source_name": "Piriformis muscle.r",
+      "triangles": 448,
+      "vertices": 226
+    },
+    {
+      "model_node_name": "MUSCLE_PLANTARIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 650,
+      "source_name": "Plantaris muscle.l",
+      "triangles": 650,
+      "vertices": 340
+    },
+    {
+      "model_node_name": "MUSCLE_PLANTARIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 650,
+      "source_name": "Plantaris muscle.r",
+      "triangles": 650,
+      "vertices": 340
+    },
+    {
+      "model_node_name": "MUSCLE_PLANTAR_INTEROSSEI_MUSCLES_L",
+      "morph_targets": [],
+      "polygons": 372,
+      "source_name": "Plantar interossei muscles.l",
+      "triangles": 372,
+      "vertices": 192
+    },
+    {
+      "model_node_name": "MUSCLE_PLANTAR_INTEROSSEI_MUSCLES_R",
+      "morph_targets": [],
+      "polygons": 372,
+      "source_name": "Plantar interossei muscles.r",
+      "triangles": 372,
+      "vertices": 192
+    },
+    {
+      "model_node_name": "MUSCLE_PLATYSMA_L",
+      "morph_targets": [],
+      "polygons": 1790,
+      "source_name": "Platysma.l",
+      "triangles": 1790,
+      "vertices": 938
+    },
+    {
+      "model_node_name": "MUSCLE_PLATYSMA_R",
+      "morph_targets": [],
+      "polygons": 1790,
+      "source_name": "Platysma.r",
+      "triangles": 1790,
+      "vertices": 938
+    },
+    {
+      "model_node_name": "MUSCLE_POPLITEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 241,
+      "source_name": "Popliteus muscle.l",
+      "triangles": 241,
+      "vertices": 142
+    },
+    {
+      "model_node_name": "MUSCLE_POPLITEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 241,
+      "source_name": "Popliteus muscle.r",
+      "triangles": 241,
+      "vertices": 142
+    },
+    {
+      "model_node_name": "MUSCLE_POSTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 382,
+      "source_name": "Posterior belly of digastric muscle.l",
+      "triangles": 382,
+      "vertices": 191
+    },
+    {
+      "model_node_name": "MUSCLE_POSTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 382,
+      "source_name": "Posterior belly of digastric muscle.r",
+      "triangles": 382,
+      "vertices": 191
+    },
+    {
+      "model_node_name": "MUSCLE_POSTERIOR_CRICO_ARYTENOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 542,
+      "source_name": "Posterior crico-arytenoid muscle.l",
+      "triangles": 542,
+      "vertices": 273
+    },
+    {
+      "model_node_name": "MUSCLE_POSTERIOR_CRICO_ARYTENOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 542,
+      "source_name": "Posterior crico-arytenoid muscle.r",
+      "triangles": 542,
+      "vertices": 273
+    },
+    {
+      "model_node_name": "MUSCLE_PROCERUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 76,
+      "source_name": "Procerus muscle.l",
+      "triangles": 76,
+      "vertices": 52
+    },
+    {
+      "model_node_name": "MUSCLE_PROCERUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 76,
+      "source_name": "Procerus muscle.r",
+      "triangles": 76,
+      "vertices": 52
+    },
+    {
+      "model_node_name": "MUSCLE_PRONATOR_QUADRATUS_L",
+      "morph_targets": [],
+      "polygons": 253,
+      "source_name": "Pronator quadratus.l",
+      "triangles": 253,
+      "vertices": 159
+    },
+    {
+      "model_node_name": "MUSCLE_PRONATOR_QUADRATUS_R",
+      "morph_targets": [],
+      "polygons": 253,
+      "source_name": "Pronator quadratus.r",
+      "triangles": 253,
+      "vertices": 159
+    },
+    {
+      "model_node_name": "MUSCLE_PSOAS_MAJOR_L",
+      "morph_targets": [],
+      "polygons": 1374,
+      "source_name": "Psoas major.l",
+      "triangles": 1374,
+      "vertices": 700
+    },
+    {
+      "model_node_name": "MUSCLE_PSOAS_MAJOR_R",
+      "morph_targets": [],
+      "polygons": 1374,
+      "source_name": "Psoas major.r",
+      "triangles": 1374,
+      "vertices": 700
+    },
+    {
+      "model_node_name": "MUSCLE_PUBOCOCCYGEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 752,
+      "source_name": "Pubococcygeus muscle.l",
+      "triangles": 752,
+      "vertices": 372
+    },
+    {
+      "model_node_name": "MUSCLE_PUBOCOCCYGEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 752,
+      "source_name": "Pubococcygeus muscle.r",
+      "triangles": 752,
+      "vertices": 372
+    },
+    {
+      "model_node_name": "MUSCLE_PUBO_ANALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 432,
+      "source_name": "Pubo-analis muscle.l",
+      "triangles": 432,
+      "vertices": 212
+    },
+    {
+      "model_node_name": "MUSCLE_PUBO_ANALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 432,
+      "source_name": "Pubo-analis muscle.r",
+      "triangles": 432,
+      "vertices": 212
+    },
+    {
+      "model_node_name": "MUSCLE_PYRAMIDALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 332,
+      "source_name": "Pyramidalis muscle.l",
+      "triangles": 332,
+      "vertices": 164
+    },
+    {
+      "model_node_name": "MUSCLE_PYRAMIDALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 332,
+      "source_name": "Pyramidalis muscle.r",
+      "triangles": 332,
+      "vertices": 164
+    },
+    {
+      "model_node_name": "MUSCLE_QUADRATUS_FEMORIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 492,
+      "source_name": "Quadratus femoris muscle.l",
+      "triangles": 492,
+      "vertices": 248
+    },
+    {
+      "model_node_name": "MUSCLE_QUADRATUS_FEMORIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 492,
+      "source_name": "Quadratus femoris muscle.r",
+      "triangles": 492,
+      "vertices": 248
+    },
+    {
+      "model_node_name": "MUSCLE_QUADRATUS_LUMBORUM_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 848,
+      "source_name": "Quadratus lumborum muscle.l",
+      "triangles": 848,
+      "vertices": 424
+    },
+    {
+      "model_node_name": "MUSCLE_QUADRATUS_LUMBORUM_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 848,
+      "source_name": "Quadratus lumborum muscle.r",
+      "triangles": 848,
+      "vertices": 424
+    },
+    {
+      "model_node_name": "MUSCLE_QUADRATUS_PLANTAE_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 352,
+      "source_name": "Quadratus plantae muscle.l",
+      "triangles": 352,
+      "vertices": 178
+    },
+    {
+      "model_node_name": "MUSCLE_QUADRATUS_PLANTAE_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 352,
+      "source_name": "Quadratus plantae muscle.r",
+      "triangles": 352,
+      "vertices": 178
+    },
+    {
+      "model_node_name": "MUSCLE_RADIAL_HEAD_OF_FLEXOR_DIGITORUM_SUPERFICIALIS_L",
+      "morph_targets": [],
+      "polygons": 278,
+      "source_name": "Radial head of flexor digitorum superficialis.l",
+      "triangles": 278,
+      "vertices": 167
+    },
+    {
+      "model_node_name": "MUSCLE_RADIAL_HEAD_OF_FLEXOR_DIGITORUM_SUPERFICIALIS_R",
+      "morph_targets": [],
+      "polygons": 278,
+      "source_name": "Radial head of flexor digitorum superficialis.r",
+      "triangles": 278,
+      "vertices": 167
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_ABDOMINIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 4196,
+      "source_name": "Rectus abdominis muscle.l",
+      "triangles": 4196,
+      "vertices": 2658
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_ABDOMINIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 4196,
+      "source_name": "Rectus abdominis muscle.r",
+      "triangles": 4196,
+      "vertices": 2658
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_ANTERIOR_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 118,
+      "source_name": "Rectus anterior capitis muscle.l",
+      "triangles": 118,
+      "vertices": 61
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_ANTERIOR_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 118,
+      "source_name": "Rectus anterior capitis muscle.r",
+      "triangles": 118,
+      "vertices": 61
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_FEMORIS_L",
+      "morph_targets": [
+        "Basis",
+        "Shorten",
+        "Lengthen"
+      ],
+      "polygons": 3346,
+      "source_name": "Rectus femoris muscle.l",
+      "triangles": 3346,
+      "vertices": 1720
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_FEMORIS_R",
+      "morph_targets": [
+        "Basis",
+        "Shorten",
+        "Lengthen"
+      ],
+      "polygons": 3346,
+      "source_name": "Rectus femoris muscle.r",
+      "triangles": 3346,
+      "vertices": 1720
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_LATERALIS_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 108,
+      "source_name": "Rectus lateralis capitis muscle.l",
+      "triangles": 108,
+      "vertices": 56
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_LATERALIS_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 108,
+      "source_name": "Rectus lateralis capitis muscle.r",
+      "triangles": 108,
+      "vertices": 56
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_POSTERIOR_MAJOR_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 236,
+      "source_name": "Rectus posterior major capitis muscle.l",
+      "triangles": 236,
+      "vertices": 120
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_POSTERIOR_MAJOR_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 236,
+      "source_name": "Rectus posterior major capitis muscle.r",
+      "triangles": 236,
+      "vertices": 120
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_POSTERIOR_MINOR_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 128,
+      "source_name": "Rectus posterior minor capitis muscle.l",
+      "triangles": 128,
+      "vertices": 62
+    },
+    {
+      "model_node_name": "MUSCLE_RECTUS_POSTERIOR_MINOR_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 128,
+      "source_name": "Rectus posterior minor capitis muscle.r",
+      "triangles": 128,
+      "vertices": 62
+    },
+    {
+      "model_node_name": "MUSCLE_RHOMBOID_MAJOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 931,
+      "source_name": "Rhomboid major muscle.l",
+      "triangles": 931,
+      "vertices": 521
+    },
+    {
+      "model_node_name": "MUSCLE_RHOMBOID_MAJOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 931,
+      "source_name": "Rhomboid major muscle.r",
+      "triangles": 931,
+      "vertices": 521
+    },
+    {
+      "model_node_name": "MUSCLE_RHOMBOID_MINOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 313,
+      "source_name": "Rhomboid minor muscle.l",
+      "triangles": 313,
+      "vertices": 176
+    },
+    {
+      "model_node_name": "MUSCLE_RHOMBOID_MINOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 313,
+      "source_name": "Rhomboid minor muscle.r",
+      "triangles": 313,
+      "vertices": 176
+    },
+    {
+      "model_node_name": "MUSCLE_RISORIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 54,
+      "source_name": "Risorius muscle.l",
+      "triangles": 54,
+      "vertices": 50
+    },
+    {
+      "model_node_name": "MUSCLE_RISORIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 54,
+      "source_name": "Risorius muscle.r",
+      "triangles": 54,
+      "vertices": 50
+    },
+    {
+      "model_node_name": "MUSCLE_ROTATORES_L",
+      "morph_targets": [],
+      "polygons": 1954,
+      "source_name": "Rotatores.l",
+      "triangles": 1954,
+      "vertices": 972
+    },
+    {
+      "model_node_name": "MUSCLE_ROTATORES_R",
+      "morph_targets": [],
+      "polygons": 1954,
+      "source_name": "Rotatores.r",
+      "triangles": 1954,
+      "vertices": 972
+    },
+    {
+      "model_node_name": "MUSCLE_SARTORIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 926,
+      "source_name": "Sartorius muscle.l",
+      "triangles": 926,
+      "vertices": 497
+    },
+    {
+      "model_node_name": "MUSCLE_SARTORIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 926,
+      "source_name": "Sartorius muscle.r",
+      "triangles": 926,
+      "vertices": 497
+    },
+    {
+      "model_node_name": "MUSCLE_SCALENUS_ANTERIOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 415,
+      "source_name": "Scalenus anterior muscle.l",
+      "triangles": 415,
+      "vertices": 212
+    },
+    {
+      "model_node_name": "MUSCLE_SCALENUS_ANTERIOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 415,
+      "source_name": "Scalenus anterior muscle.r",
+      "triangles": 415,
+      "vertices": 212
+    },
+    {
+      "model_node_name": "MUSCLE_SCALENUS_MEDIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 622,
+      "source_name": "Scalenus medius muscle.l",
+      "triangles": 622,
+      "vertices": 309
+    },
+    {
+      "model_node_name": "MUSCLE_SCALENUS_MEDIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 622,
+      "source_name": "Scalenus medius muscle.r",
+      "triangles": 622,
+      "vertices": 309
+    },
+    {
+      "model_node_name": "MUSCLE_SCALENUS_POSTERIOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 396,
+      "source_name": "Scalenus posterior muscle.l",
+      "triangles": 396,
+      "vertices": 200
+    },
+    {
+      "model_node_name": "MUSCLE_SCALENUS_POSTERIOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 396,
+      "source_name": "Scalenus posterior muscle.r",
+      "triangles": 396,
+      "vertices": 200
+    },
+    {
+      "model_node_name": "MUSCLE_SCAPULAR_SPINAL_PART_OF_DELTOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 987,
+      "source_name": "Scapular spinal part of deltoid muscle.l",
+      "triangles": 987,
+      "vertices": 572
+    },
+    {
+      "model_node_name": "MUSCLE_SCAPULAR_SPINAL_PART_OF_DELTOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 987,
+      "source_name": "Scapular spinal part of deltoid muscle.r",
+      "triangles": 987,
+      "vertices": 572
+    },
+    {
+      "model_node_name": "MUSCLE_SEMIMEMBRANOSUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1618,
+      "source_name": "Semimembranosus muscle.l",
+      "triangles": 1618,
+      "vertices": 871
+    },
+    {
+      "model_node_name": "MUSCLE_SEMIMEMBRANOSUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1618,
+      "source_name": "Semimembranosus muscle.r",
+      "triangles": 1618,
+      "vertices": 871
+    },
+    {
+      "model_node_name": "MUSCLE_SEMISPINALIS_COLLI_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 774,
+      "source_name": "Semispinalis colli muscle.l",
+      "triangles": 774,
+      "vertices": 387
+    },
+    {
+      "model_node_name": "MUSCLE_SEMISPINALIS_COLLI_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 774,
+      "source_name": "Semispinalis colli muscle.r",
+      "triangles": 774,
+      "vertices": 387
+    },
+    {
+      "model_node_name": "MUSCLE_SEMISPINALIS_THORACIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1490,
+      "source_name": "Semispinalis thoracis muscle.l",
+      "triangles": 1490,
+      "vertices": 734
+    },
+    {
+      "model_node_name": "MUSCLE_SEMISPINALIS_THORACIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1490,
+      "source_name": "Semispinalis thoracis muscle.r",
+      "triangles": 1490,
+      "vertices": 734
+    },
+    {
+      "model_node_name": "MUSCLE_SEMITENDINOSUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 642,
+      "source_name": "Semitendinosus muscle.l",
+      "triangles": 642,
+      "vertices": 353
+    },
+    {
+      "model_node_name": "MUSCLE_SEMITENDINOSUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 642,
+      "source_name": "Semitendinosus muscle.r",
+      "triangles": 642,
+      "vertices": 353
+    },
+    {
+      "model_node_name": "MUSCLE_SERRATUS_ANTERIOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 7572,
+      "source_name": "Serratus anterior muscle.l",
+      "triangles": 7572,
+      "vertices": 3784
+    },
+    {
+      "model_node_name": "MUSCLE_SERRATUS_ANTERIOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 7572,
+      "source_name": "Serratus anterior muscle.r",
+      "triangles": 7572,
+      "vertices": 3784
+    },
+    {
+      "model_node_name": "MUSCLE_SERRATUS_POSTERIOR_INFERIOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1431,
+      "source_name": "Serratus posterior inferior muscle.l",
+      "triangles": 1431,
+      "vertices": 914
+    },
+    {
+      "model_node_name": "MUSCLE_SERRATUS_POSTERIOR_INFERIOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1431,
+      "source_name": "Serratus posterior inferior muscle.r",
+      "triangles": 1431,
+      "vertices": 914
+    },
+    {
+      "model_node_name": "MUSCLE_SERRATUS_POSTERIOR_SUPERIOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1227,
+      "source_name": "Serratus posterior superior muscle.l",
+      "triangles": 1227,
+      "vertices": 653
+    },
+    {
+      "model_node_name": "MUSCLE_SERRATUS_POSTERIOR_SUPERIOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1227,
+      "source_name": "Serratus posterior superior muscle.r",
+      "triangles": 1227,
+      "vertices": 653
+    },
+    {
+      "model_node_name": "MUSCLE_SHORT_HEAD_OF_BICEPS_BRACHII_L",
+      "morph_targets": [],
+      "polygons": 542,
+      "source_name": "Short head of biceps brachii.l",
+      "triangles": 542,
+      "vertices": 294
+    },
+    {
+      "model_node_name": "MUSCLE_SHORT_HEAD_OF_BICEPS_BRACHII_R",
+      "morph_targets": [],
+      "polygons": 542,
+      "source_name": "Short head of biceps brachii.r",
+      "triangles": 542,
+      "vertices": 294
+    },
+    {
+      "model_node_name": "MUSCLE_SHORT_HEAD_OF_BICEPS_FEMORIS_L",
+      "morph_targets": [],
+      "polygons": 615,
+      "source_name": "Short head of biceps femoris.l",
+      "triangles": 615,
+      "vertices": 321
+    },
+    {
+      "model_node_name": "MUSCLE_SHORT_HEAD_OF_BICEPS_FEMORIS_R",
+      "morph_targets": [],
+      "polygons": 615,
+      "source_name": "Short head of biceps femoris.r",
+      "triangles": 615,
+      "vertices": 321
+    },
+    {
+      "model_node_name": "MUSCLE_SOLEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1900,
+      "source_name": "Soleus muscle.l",
+      "triangles": 1900,
+      "vertices": 972
+    },
+    {
+      "model_node_name": "MUSCLE_SOLEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1900,
+      "source_name": "Soleus muscle.r",
+      "triangles": 1900,
+      "vertices": 972
+    },
+    {
+      "model_node_name": "MUSCLE_SPINALIS_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 576,
+      "source_name": "Spinalis capitis muscle.l",
+      "triangles": 576,
+      "vertices": 326
+    },
+    {
+      "model_node_name": "MUSCLE_SPINALIS_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 576,
+      "source_name": "Spinalis capitis muscle.r",
+      "triangles": 576,
+      "vertices": 326
+    },
+    {
+      "model_node_name": "MUSCLE_SPINALIS_COLLI_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 178,
+      "source_name": "Spinalis colli muscle.l",
+      "triangles": 178,
+      "vertices": 89
+    },
+    {
+      "model_node_name": "MUSCLE_SPINALIS_COLLI_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 178,
+      "source_name": "Spinalis colli muscle.r",
+      "triangles": 178,
+      "vertices": 89
+    },
+    {
+      "model_node_name": "MUSCLE_SPINALIS_THORACIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1658,
+      "source_name": "Spinalis thoracis muscle.l",
+      "triangles": 1658,
+      "vertices": 831
+    },
+    {
+      "model_node_name": "MUSCLE_SPINALIS_THORACIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1658,
+      "source_name": "Spinalis thoracis muscle.r",
+      "triangles": 1658,
+      "vertices": 831
+    },
+    {
+      "model_node_name": "MUSCLE_SPLENIUS_CAPITIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 973,
+      "source_name": "Splenius capitis muscle.l",
+      "triangles": 973,
+      "vertices": 593
+    },
+    {
+      "model_node_name": "MUSCLE_SPLENIUS_CAPITIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 973,
+      "source_name": "Splenius capitis muscle.r",
+      "triangles": 973,
+      "vertices": 593
+    },
+    {
+      "model_node_name": "MUSCLE_SPLENIUS_COLLI_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1294,
+      "source_name": "Splenius colli muscle.l",
+      "triangles": 1294,
+      "vertices": 648
+    },
+    {
+      "model_node_name": "MUSCLE_SPLENIUS_COLLI_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1294,
+      "source_name": "Splenius colli muscle.r",
+      "triangles": 1294,
+      "vertices": 648
+    },
+    {
+      "model_node_name": "MUSCLE_STERNOCLEIDOMASTOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 984,
+      "source_name": "Sternocleidomastoid muscle.l",
+      "triangles": 984,
+      "vertices": 537
+    },
+    {
+      "model_node_name": "MUSCLE_STERNOCLEIDOMASTOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 984,
+      "source_name": "Sternocleidomastoid muscle.r",
+      "triangles": 984,
+      "vertices": 537
+    },
+    {
+      "model_node_name": "MUSCLE_STERNOCOSTAL_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 853,
+      "source_name": "Sternocostal head of pectoralis major muscle.l",
+      "triangles": 853,
+      "vertices": 446
+    },
+    {
+      "model_node_name": "MUSCLE_STERNOCOSTAL_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 853,
+      "source_name": "Sternocostal head of pectoralis major muscle.r",
+      "triangles": 853,
+      "vertices": 446
+    },
+    {
+      "model_node_name": "MUSCLE_STERNOHYOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 418,
+      "source_name": "Sternohyoid muscle.l",
+      "triangles": 418,
+      "vertices": 209
+    },
+    {
+      "model_node_name": "MUSCLE_STERNOHYOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 418,
+      "source_name": "Sternohyoid muscle.r",
+      "triangles": 418,
+      "vertices": 209
+    },
+    {
+      "model_node_name": "MUSCLE_STERNOTHYROID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 326,
+      "source_name": "Sternothyroid muscle.l",
+      "triangles": 326,
+      "vertices": 165
+    },
+    {
+      "model_node_name": "MUSCLE_STERNOTHYROID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 326,
+      "source_name": "Sternothyroid muscle.r",
+      "triangles": 326,
+      "vertices": 165
+    },
+    {
+      "model_node_name": "MUSCLE_STRAIGHT_PART_OF_CRICOTHYROID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 354,
+      "source_name": "Straight part of cricothyroid muscle.l",
+      "triangles": 354,
+      "vertices": 179
+    },
+    {
+      "model_node_name": "MUSCLE_STRAIGHT_PART_OF_CRICOTHYROID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 354,
+      "source_name": "Straight part of cricothyroid muscle.r",
+      "triangles": 354,
+      "vertices": 179
+    },
+    {
+      "model_node_name": "MUSCLE_STYLOHYOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 208,
+      "source_name": "Stylohyoid muscle.l",
+      "triangles": 208,
+      "vertices": 106
+    },
+    {
+      "model_node_name": "MUSCLE_STYLOHYOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 208,
+      "source_name": "Stylohyoid muscle.r",
+      "triangles": 208,
+      "vertices": 106
+    },
+    {
+      "model_node_name": "MUSCLE_STYLOPHARYNGEUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 2842,
+      "source_name": "Stylopharyngeus muscle.l",
+      "triangles": 2842,
+      "vertices": 1422
+    },
+    {
+      "model_node_name": "MUSCLE_STYLOPHARYNGEUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 2842,
+      "source_name": "Stylopharyngeus muscle.r",
+      "triangles": 2842,
+      "vertices": 1422
+    },
+    {
+      "model_node_name": "MUSCLE_SUBCLAVIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 238,
+      "source_name": "Subclavius muscle.l",
+      "triangles": 238,
+      "vertices": 119
+    },
+    {
+      "model_node_name": "MUSCLE_SUBCLAVIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 238,
+      "source_name": "Subclavius muscle.r",
+      "triangles": 238,
+      "vertices": 119
+    },
+    {
+      "model_node_name": "MUSCLE_SUBSCAPULARIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 886,
+      "source_name": "Subscapularis muscle.l",
+      "triangles": 886,
+      "vertices": 437
+    },
+    {
+      "model_node_name": "MUSCLE_SUBSCAPULARIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 886,
+      "source_name": "Subscapularis muscle.r",
+      "triangles": 886,
+      "vertices": 437
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERFICIAL_HEAD_OF_FLEXOR_POLLICIS_BREVIS_L",
+      "morph_targets": [],
+      "polygons": 63,
+      "source_name": "Superficial head of flexor pollicis brevis.l",
+      "triangles": 63,
+      "vertices": 36
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERFICIAL_HEAD_OF_FLEXOR_POLLICIS_BREVIS_R",
+      "morph_targets": [],
+      "polygons": 63,
+      "source_name": "Superficial head of flexor pollicis brevis.r",
+      "triangles": 63,
+      "vertices": 36
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERFICIAL_HEAD_OF_PRONATOR_TERES_L",
+      "morph_targets": [],
+      "polygons": 582,
+      "source_name": "Superficial head of pronator teres.l",
+      "triangles": 582,
+      "vertices": 330
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERFICIAL_HEAD_OF_PRONATOR_TERES_R",
+      "morph_targets": [],
+      "polygons": 582,
+      "source_name": "Superficial head of pronator teres.r",
+      "triangles": 582,
+      "vertices": 330
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERFICIAL_PART_OF_MASSETER_L",
+      "morph_targets": [],
+      "polygons": 279,
+      "source_name": "Superficial part of masseter.l",
+      "triangles": 279,
+      "vertices": 160
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERFICIAL_PART_OF_MASSETER_R",
+      "morph_targets": [],
+      "polygons": 279,
+      "source_name": "Superficial part of masseter.r",
+      "triangles": 279,
+      "vertices": 160
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_GEMELLUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 77,
+      "source_name": "Superior gemellus muscle.l",
+      "triangles": 77,
+      "vertices": 51
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_GEMELLUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 77,
+      "source_name": "Superior gemellus muscle.r",
+      "triangles": 77,
+      "vertices": 51
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 66,
+      "source_name": "Superior head of lateral pterygoid muscle.l",
+      "triangles": 66,
+      "vertices": 35
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 66,
+      "source_name": "Superior head of lateral pterygoid muscle.r",
+      "triangles": 66,
+      "vertices": 35
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_OBLIQUE_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 524,
+      "source_name": "Superior oblique muscle.l",
+      "triangles": 524,
+      "vertices": 264
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_OBLIQUE_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 524,
+      "source_name": "Superior oblique muscle.r",
+      "triangles": 524,
+      "vertices": 264
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_PHARYNGEAL_CONSTRICTOR_L",
+      "morph_targets": [],
+      "polygons": 1600,
+      "source_name": "Superior pharyngeal constrictor.l",
+      "triangles": 1600,
+      "vertices": 802
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_PHARYNGEAL_CONSTRICTOR_R",
+      "morph_targets": [],
+      "polygons": 1600,
+      "source_name": "Superior pharyngeal constrictor.r",
+      "triangles": 1600,
+      "vertices": 802
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_RECTUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 384,
+      "source_name": "Superior rectus muscle.l",
+      "triangles": 384,
+      "vertices": 194
+    },
+    {
+      "model_node_name": "MUSCLE_SUPERIOR_RECTUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 384,
+      "source_name": "Superior rectus muscle.r",
+      "triangles": 384,
+      "vertices": 194
+    },
+    {
+      "model_node_name": "MUSCLE_SUPINATOR_L",
+      "morph_targets": [],
+      "polygons": 826,
+      "source_name": "Supinator.l",
+      "triangles": 826,
+      "vertices": 415
+    },
+    {
+      "model_node_name": "MUSCLE_SUPINATOR_R",
+      "morph_targets": [],
+      "polygons": 826,
+      "source_name": "Supinator.r",
+      "triangles": 826,
+      "vertices": 415
+    },
+    {
+      "model_node_name": "MUSCLE_SUPRASPINATUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 428,
+      "source_name": "Supraspinatus muscle.l",
+      "triangles": 428,
+      "vertices": 216
+    },
+    {
+      "model_node_name": "MUSCLE_SUPRASPINATUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 428,
+      "source_name": "Supraspinatus muscle.r",
+      "triangles": 428,
+      "vertices": 216
+    },
+    {
+      "model_node_name": "MUSCLE_TEMPORALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1900,
+      "source_name": "Temporalis muscle.l",
+      "triangles": 1900,
+      "vertices": 1119
+    },
+    {
+      "model_node_name": "MUSCLE_TEMPORALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1900,
+      "source_name": "Temporalis muscle.r",
+      "triangles": 1900,
+      "vertices": 1119
+    },
+    {
+      "model_node_name": "MUSCLE_TEMPOROPARIETALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 2307,
+      "source_name": "Temporoparietalis muscle.l",
+      "triangles": 2307,
+      "vertices": 1404
+    },
+    {
+      "model_node_name": "MUSCLE_TEMPOROPARIETALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 2307,
+      "source_name": "Temporoparietalis muscle.r",
+      "triangles": 2307,
+      "vertices": 1404
+    },
+    {
+      "model_node_name": "MUSCLE_TENSOR_FASCIAE_LATAE_L",
+      "morph_targets": [],
+      "polygons": 475,
+      "source_name": "Tensor fasciae latae.l",
+      "triangles": 475,
+      "vertices": 260
+    },
+    {
+      "model_node_name": "MUSCLE_TENSOR_FASCIAE_LATAE_R",
+      "morph_targets": [],
+      "polygons": 475,
+      "source_name": "Tensor fasciae latae.r",
+      "triangles": 475,
+      "vertices": 260
+    },
+    {
+      "model_node_name": "MUSCLE_TERES_MAJOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 346,
+      "source_name": "Teres major muscle.l",
+      "triangles": 346,
+      "vertices": 173
+    },
+    {
+      "model_node_name": "MUSCLE_TERES_MAJOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 346,
+      "source_name": "Teres major muscle.r",
+      "triangles": 346,
+      "vertices": 173
+    },
+    {
+      "model_node_name": "MUSCLE_TERES_MINOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 456,
+      "source_name": "Teres minor muscle.l",
+      "triangles": 456,
+      "vertices": 230
+    },
+    {
+      "model_node_name": "MUSCLE_TERES_MINOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 456,
+      "source_name": "Teres minor muscle.r",
+      "triangles": 456,
+      "vertices": 230
+    },
+    {
+      "model_node_name": "MUSCLE_THYROHYOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 210,
+      "source_name": "Thyrohyoid muscle.l",
+      "triangles": 210,
+      "vertices": 107
+    },
+    {
+      "model_node_name": "MUSCLE_THYROHYOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 210,
+      "source_name": "Thyrohyoid muscle.r",
+      "triangles": 210,
+      "vertices": 107
+    },
+    {
+      "model_node_name": "MUSCLE_THYRO_EPIGLOTTIC_PART_OF_THYRO_ARYTENOID_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 932,
+      "source_name": "Thyro-epiglottic part of thyro-arytenoid muscle.l",
+      "triangles": 932,
+      "vertices": 468
+    },
+    {
+      "model_node_name": "MUSCLE_THYRO_EPIGLOTTIC_PART_OF_THYRO_ARYTENOID_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 932,
+      "source_name": "Thyro-epiglottic part of thyro-arytenoid muscle.r",
+      "triangles": 932,
+      "vertices": 468
+    },
+    {
+      "model_node_name": "MUSCLE_TIBIALIS_ANTERIOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 780,
+      "source_name": "Tibialis anterior muscle.l",
+      "triangles": 780,
+      "vertices": 395
+    },
+    {
+      "model_node_name": "MUSCLE_TIBIALIS_ANTERIOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 780,
+      "source_name": "Tibialis anterior muscle.r",
+      "triangles": 780,
+      "vertices": 395
+    },
+    {
+      "model_node_name": "MUSCLE_TIBIALIS_POSTERIOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 792,
+      "source_name": "Tibialis posterior muscle.l",
+      "triangles": 792,
+      "vertices": 403
+    },
+    {
+      "model_node_name": "MUSCLE_TIBIALIS_POSTERIOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 792,
+      "source_name": "Tibialis posterior muscle.r",
+      "triangles": 792,
+      "vertices": 403
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSE_ARYTENOID_MUSCLE",
+      "morph_targets": [],
+      "polygons": 546,
+      "source_name": "Transverse arytenoid muscle",
+      "triangles": 546,
+      "vertices": 275
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSE_HEAD_OF_ADDUCTOR_HALLUCIS_L",
+      "morph_targets": [],
+      "polygons": 108,
+      "source_name": "Transverse head of adductor hallucis.l",
+      "triangles": 108,
+      "vertices": 52
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSE_HEAD_OF_ADDUCTOR_HALLUCIS_R",
+      "morph_targets": [],
+      "polygons": 108,
+      "source_name": "Transverse head of adductor hallucis.r",
+      "triangles": 108,
+      "vertices": 52
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSE_HEAD_OF_ADDUCTOR_POLLICIS_L",
+      "morph_targets": [],
+      "polygons": 284,
+      "source_name": "Transverse head of adductor pollicis.l",
+      "triangles": 284,
+      "vertices": 150
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSE_HEAD_OF_ADDUCTOR_POLLICIS_R",
+      "morph_targets": [],
+      "polygons": 284,
+      "source_name": "Transverse head of adductor pollicis.r",
+      "triangles": 284,
+      "vertices": 150
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSE_PART_OF_TRAPEZIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 272,
+      "source_name": "Transverse part of trapezius muscle.l",
+      "triangles": 272,
+      "vertices": 196
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSE_PART_OF_TRAPEZIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 272,
+      "source_name": "Transverse part of trapezius muscle.r",
+      "triangles": 272,
+      "vertices": 196
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSUS_ABDOMINIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 10298,
+      "source_name": "Transversus abdominis muscle.l",
+      "triangles": 10298,
+      "vertices": 5149
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSUS_ABDOMINIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 10298,
+      "source_name": "Transversus abdominis muscle.r",
+      "triangles": 10298,
+      "vertices": 5149
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSUS_THORACIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 500,
+      "source_name": "Transversus thoracis muscle.l",
+      "triangles": 500,
+      "vertices": 235
+    },
+    {
+      "model_node_name": "MUSCLE_TRANSVERSUS_THORACIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 500,
+      "source_name": "Transversus thoracis muscle.r",
+      "triangles": 500,
+      "vertices": 235
+    },
+    {
+      "model_node_name": "MUSCLE_ULNAR_HEAD_OF_EXTENSOR_CARPI_ULNARIS_L",
+      "morph_targets": [],
+      "polygons": 111,
+      "source_name": "Ulnar head of extensor carpi ulnaris.l",
+      "triangles": 111,
+      "vertices": 61
+    },
+    {
+      "model_node_name": "MUSCLE_ULNAR_HEAD_OF_EXTENSOR_CARPI_ULNARIS_R",
+      "morph_targets": [],
+      "polygons": 111,
+      "source_name": "Ulnar head of extensor carpi ulnaris.r",
+      "triangles": 111,
+      "vertices": 61
+    },
+    {
+      "model_node_name": "MUSCLE_ULNAR_HEAD_OF_FLEXOR_CARPI_ULNARIS_L",
+      "morph_targets": [],
+      "polygons": 365,
+      "source_name": "Ulnar head of flexor carpi ulnaris.l",
+      "triangles": 365,
+      "vertices": 180
+    },
+    {
+      "model_node_name": "MUSCLE_ULNAR_HEAD_OF_FLEXOR_CARPI_ULNARIS_R",
+      "morph_targets": [],
+      "polygons": 365,
+      "source_name": "Ulnar head of flexor carpi ulnaris.r",
+      "triangles": 365,
+      "vertices": 180
+    },
+    {
+      "model_node_name": "MUSCLE_VASTUS_INTERMEDIUS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1290,
+      "source_name": "Vastus intermedius muscle.l",
+      "triangles": 1290,
+      "vertices": 688
+    },
+    {
+      "model_node_name": "MUSCLE_VASTUS_INTERMEDIUS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1290,
+      "source_name": "Vastus intermedius muscle.r",
+      "triangles": 1290,
+      "vertices": 688
+    },
+    {
+      "model_node_name": "MUSCLE_VASTUS_LATERALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 2474,
+      "source_name": "Vastus lateralis muscle.l",
+      "triangles": 2474,
+      "vertices": 1287
+    },
+    {
+      "model_node_name": "MUSCLE_VASTUS_LATERALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 2474,
+      "source_name": "Vastus lateralis muscle.r",
+      "triangles": 2474,
+      "vertices": 1287
+    },
+    {
+      "model_node_name": "MUSCLE_VASTUS_MEDIALIS_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 1739,
+      "source_name": "Vastus medialis muscle.l",
+      "triangles": 1739,
+      "vertices": 957
+    },
+    {
+      "model_node_name": "MUSCLE_VASTUS_MEDIALIS_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 1739,
+      "source_name": "Vastus medialis muscle.r",
+      "triangles": 1739,
+      "vertices": 957
+    },
+    {
+      "model_node_name": "MUSCLE_VENTRAL_PARTS_OF_LATERAL_INTERTRANSVERSARII_L_L_29D6528A",
+      "morph_targets": [],
+      "polygons": 298,
+      "source_name": "Ventral parts of lateral intertransversarii lumborum muscles.l",
+      "triangles": 298,
+      "vertices": 157
+    },
+    {
+      "model_node_name": "MUSCLE_VENTRAL_PARTS_OF_LATERAL_INTERTRANSVERSARII_L_R_D3D96FE9",
+      "morph_targets": [],
+      "polygons": 298,
+      "source_name": "Ventral parts of lateral intertransversarii lumborum muscles.r",
+      "triangles": 298,
+      "vertices": 157
+    },
+    {
+      "model_node_name": "MUSCLE_ZYGOMATICUS_MAJOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 135,
+      "source_name": "Zygomaticus major muscle.l",
+      "triangles": 135,
+      "vertices": 80
+    },
+    {
+      "model_node_name": "MUSCLE_ZYGOMATICUS_MAJOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 135,
+      "source_name": "Zygomaticus major muscle.r",
+      "triangles": 135,
+      "vertices": 80
+    },
+    {
+      "model_node_name": "MUSCLE_ZYGOMATICUS_MINOR_MUSCLE_L",
+      "morph_targets": [],
+      "polygons": 85,
+      "source_name": "Zygomaticus minor muscle.l",
+      "triangles": 85,
+      "vertices": 57
+    },
+    {
+      "model_node_name": "MUSCLE_ZYGOMATICUS_MINOR_MUSCLE_R",
+      "morph_targets": [],
+      "polygons": 85,
+      "source_name": "Zygomaticus minor muscle.r",
+      "triangles": 85,
+      "vertices": 57
+    }
+  ],
+  "node_names": [
+    "MUSCLE_ABDOMINAL_PART_OF_PECTORALIS_MAJOR_MUSCLE_L",
+    "MUSCLE_ABDOMINAL_PART_OF_PECTORALIS_MAJOR_MUSCLE_R",
+    "MUSCLE_ABDUCTOR_DIGITI_MINIMI_OF_FOOT_L",
+    "MUSCLE_ABDUCTOR_DIGITI_MINIMI_OF_FOOT_R",
+    "MUSCLE_ABDUCTOR_DIGITI_MINIMI_OF_HAND_L",
+    "MUSCLE_ABDUCTOR_DIGITI_MINIMI_OF_HAND_R",
+    "MUSCLE_ABDUCTOR_HALLUCIS_L",
+    "MUSCLE_ABDUCTOR_HALLUCIS_R",
+    "MUSCLE_ABDUCTOR_POLLICIS_BREVIS_L",
+    "MUSCLE_ABDUCTOR_POLLICIS_BREVIS_R",
+    "MUSCLE_ABDUCTOR_POLLICIS_LONGUS_L",
+    "MUSCLE_ABDUCTOR_POLLICIS_LONGUS_R",
+    "MUSCLE_ACROMIAL_PART_OF_DELTOID_MUSCLE_L",
+    "MUSCLE_ACROMIAL_PART_OF_DELTOID_MUSCLE_R",
+    "MUSCLE_ADDUCTOR_BREVIS_L",
+    "MUSCLE_ADDUCTOR_BREVIS_R",
+    "MUSCLE_ADDUCTOR_LONGUS_L",
+    "MUSCLE_ADDUCTOR_LONGUS_R",
+    "MUSCLE_ADDUCTOR_MAGNUS_L",
+    "MUSCLE_ADDUCTOR_MAGNUS_R",
+    "MUSCLE_ADDUCTOR_MINIMUS_L",
+    "MUSCLE_ADDUCTOR_MINIMUS_R",
+    "MUSCLE_ANCONEUS_MUSCLE_L",
+    "MUSCLE_ANCONEUS_MUSCLE_R",
+    "MUSCLE_ANTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_L",
+    "MUSCLE_ANTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_R",
+    "MUSCLE_ARY_EPIGLOTTIC_PART_OF_OBLIQUE_ARYTENOID_MUSCLE_L",
+    "MUSCLE_ARY_EPIGLOTTIC_PART_OF_OBLIQUE_ARYTENOID_MUSCLE_R",
+    "MUSCLE_ASCENDING_PART_OF_TRAPEZIUS_MUSCLE_L",
+    "MUSCLE_ASCENDING_PART_OF_TRAPEZIUS_MUSCLE_R",
+    "MUSCLE_BRACHIALIS_MUSCLE_L",
+    "MUSCLE_BRACHIALIS_MUSCLE_R",
+    "MUSCLE_BRACHIORADIALIS_MUSCLE_L",
+    "MUSCLE_BRACHIORADIALIS_MUSCLE_R",
+    "MUSCLE_BUCINATOR_L",
+    "MUSCLE_BUCINATOR_R",
+    "MUSCLE_CLAVICULAR_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_L",
+    "MUSCLE_CLAVICULAR_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_R",
+    "MUSCLE_CLAVICULAR_PART_OF_DELTOID_MUSCLE_L",
+    "MUSCLE_CLAVICULAR_PART_OF_DELTOID_MUSCLE_R",
+    "MUSCLE_COCCYGEUS_MUSCLE_L",
+    "MUSCLE_COCCYGEUS_MUSCLE_R",
+    "MUSCLE_CORACOBRACHIALIS_MUSCLE_L",
+    "MUSCLE_CORACOBRACHIALIS_MUSCLE_R",
+    "MUSCLE_CORRUGATOR_SUPERCILII_L",
+    "MUSCLE_CORRUGATOR_SUPERCILII_R",
+    "MUSCLE_DEEP_HEAD_OF_FLEXOR_POLLICIS_BREVIS_L",
+    "MUSCLE_DEEP_HEAD_OF_FLEXOR_POLLICIS_BREVIS_R",
+    "MUSCLE_DEEP_HEAD_OF_PRONATOR_TERES_L",
+    "MUSCLE_DEEP_HEAD_OF_PRONATOR_TERES_R",
+    "MUSCLE_DEEP_PART_OF_MASSETER_L",
+    "MUSCLE_DEEP_PART_OF_MASSETER_R",
+    "MUSCLE_DEPRESSOR_ANGULI_ORIS_L",
+    "MUSCLE_DEPRESSOR_ANGULI_ORIS_R",
+    "MUSCLE_DEPRESSOR_LABII_INFERIORIS_L",
+    "MUSCLE_DEPRESSOR_LABII_INFERIORIS_R",
+    "MUSCLE_DEPRESSOR_SEPTI_NASI_L",
+    "MUSCLE_DEPRESSOR_SEPTI_NASI_R",
+    "MUSCLE_DESCENDING_PART_OF_TRAPEZIUS_MUSCLE_L",
+    "MUSCLE_DESCENDING_PART_OF_TRAPEZIUS_MUSCLE_R",
+    "MUSCLE_DIAPHRAGM",
+    "MUSCLE_DORSAL_INTEROSSEI_MUSCLES_OF_FOOT_L",
+    "MUSCLE_DORSAL_INTEROSSEI_MUSCLES_OF_FOOT_R",
+    "MUSCLE_DORSAL_INTEROSSEI_MUSCLES_OF_HAND_L",
+    "MUSCLE_DORSAL_INTEROSSEI_MUSCLES_OF_HAND_R",
+    "MUSCLE_DORSAL_PARTS_OF_LATERAL_INTERTRANSVERSARII_LU_L_3CF33FA2",
+    "MUSCLE_DORSAL_PARTS_OF_LATERAL_INTERTRANSVERSARII_LU_R_C6FC02C1",
+    "MUSCLE_EXTENSOR_CARPI_RADIALIS_BREVIS_L",
+    "MUSCLE_EXTENSOR_CARPI_RADIALIS_BREVIS_R",
+    "MUSCLE_EXTENSOR_CARPI_RADIALIS_LONGUS_L",
+    "MUSCLE_EXTENSOR_CARPI_RADIALIS_LONGUS_R",
+    "MUSCLE_EXTENSOR_DIGITI_MINIMI_L",
+    "MUSCLE_EXTENSOR_DIGITI_MINIMI_R",
+    "MUSCLE_EXTENSOR_DIGITORUM_BREVIS_L",
+    "MUSCLE_EXTENSOR_DIGITORUM_BREVIS_R",
+    "MUSCLE_EXTENSOR_DIGITORUM_L",
+    "MUSCLE_EXTENSOR_DIGITORUM_LONGUS_L",
+    "MUSCLE_EXTENSOR_DIGITORUM_LONGUS_R",
+    "MUSCLE_EXTENSOR_DIGITORUM_R",
+    "MUSCLE_EXTENSOR_HALLUCIS_BREVIS_L",
+    "MUSCLE_EXTENSOR_HALLUCIS_BREVIS_R",
+    "MUSCLE_EXTENSOR_HALLUCIS_LONGUS_L",
+    "MUSCLE_EXTENSOR_HALLUCIS_LONGUS_R",
+    "MUSCLE_EXTENSOR_INDICIS_L",
+    "MUSCLE_EXTENSOR_INDICIS_R",
+    "MUSCLE_EXTENSOR_POLLICIS_BREVIS_L",
+    "MUSCLE_EXTENSOR_POLLICIS_BREVIS_R",
+    "MUSCLE_EXTENSOR_POLLICIS_LONGUS_L",
+    "MUSCLE_EXTENSOR_POLLICIS_LONGUS_R",
+    "MUSCLE_EXTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_L",
+    "MUSCLE_EXTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_R",
+    "MUSCLE_EXTERNAL_ANAL_SPHINCTER_L",
+    "MUSCLE_EXTERNAL_ANAL_SPHINCTER_R",
+    "MUSCLE_EXTERNAL_INTERCOSTAL_MUSCLES_L",
+    "MUSCLE_EXTERNAL_INTERCOSTAL_MUSCLES_R",
+    "MUSCLE_EXTERNAL_PART_OF_THYRO_ARYTENOID_MUSCLE_L",
+    "MUSCLE_EXTERNAL_PART_OF_THYRO_ARYTENOID_MUSCLE_R",
+    "MUSCLE_FIBULARIS_BREVIS_MUSCLE_L",
+    "MUSCLE_FIBULARIS_BREVIS_MUSCLE_R",
+    "MUSCLE_FIBULARIS_LONGUS_MUSCLE_L",
+    "MUSCLE_FIBULARIS_LONGUS_MUSCLE_R",
+    "MUSCLE_FIBULARIS_TERTIUS_MUSCLE_L",
+    "MUSCLE_FIBULARIS_TERTIUS_MUSCLE_R",
+    "MUSCLE_FLEXOR_CARPI_RADIALIS_L",
+    "MUSCLE_FLEXOR_CARPI_RADIALIS_R",
+    "MUSCLE_FLEXOR_DIGITI_MINIMI_OF_FOOT_L",
+    "MUSCLE_FLEXOR_DIGITI_MINIMI_OF_FOOT_R",
+    "MUSCLE_FLEXOR_DIGITI_MINIMI_OF_HAND_L",
+    "MUSCLE_FLEXOR_DIGITI_MINIMI_OF_HAND_R",
+    "MUSCLE_FLEXOR_DIGITORUM_BREVIS_L",
+    "MUSCLE_FLEXOR_DIGITORUM_BREVIS_R",
+    "MUSCLE_FLEXOR_DIGITORUM_LONGUS_L",
+    "MUSCLE_FLEXOR_DIGITORUM_LONGUS_R",
+    "MUSCLE_FLEXOR_DIGITORUM_PROFUNDUS_L",
+    "MUSCLE_FLEXOR_DIGITORUM_PROFUNDUS_R",
+    "MUSCLE_FLEXOR_HALLUCIS_LONGUS_L",
+    "MUSCLE_FLEXOR_HALLUCIS_LONGUS_R",
+    "MUSCLE_FLEXOR_POLLICIS_LONGUS_L",
+    "MUSCLE_FLEXOR_POLLICIS_LONGUS_R",
+    "MUSCLE_FRONTALIS_MUSCLE_L",
+    "MUSCLE_FRONTALIS_MUSCLE_R",
+    "MUSCLE_GENIOGLOSSUS_MUSCLE_L",
+    "MUSCLE_GENIOGLOSSUS_MUSCLE_R",
+    "MUSCLE_GENIOHYOID_MUSCLE_L",
+    "MUSCLE_GENIOHYOID_MUSCLE_R",
+    "MUSCLE_GLUTEUS_MAXIMUS_L",
+    "MUSCLE_GLUTEUS_MAXIMUS_R",
+    "MUSCLE_GLUTEUS_MEDIUS_MUSCLE_L",
+    "MUSCLE_GLUTEUS_MEDIUS_MUSCLE_R",
+    "MUSCLE_GLUTEUS_MINIMUS_MUSCLE_L",
+    "MUSCLE_GLUTEUS_MINIMUS_MUSCLE_R",
+    "MUSCLE_GRACILIS_MUSCLE_L",
+    "MUSCLE_GRACILIS_MUSCLE_R",
+    "MUSCLE_HUMERAL_HEAD_OF_EXTENSOR_CARPI_ULNARIS_L",
+    "MUSCLE_HUMERAL_HEAD_OF_EXTENSOR_CARPI_ULNARIS_R",
+    "MUSCLE_HUMERAL_HEAD_OF_FLEXOR_CARPI_ULNARIS_L",
+    "MUSCLE_HUMERAL_HEAD_OF_FLEXOR_CARPI_ULNARIS_R",
+    "MUSCLE_HUMERO_ULNAR_HEAD_OF_FLEXOR_DIGITORUM_SUPERFICIALIS_L",
+    "MUSCLE_HUMERO_ULNAR_HEAD_OF_FLEXOR_DIGITORUM_SUPERFICIALIS_R",
+    "MUSCLE_HYOGLOSSUS_MUSCLE_L",
+    "MUSCLE_HYOGLOSSUS_MUSCLE_R",
+    "MUSCLE_ILIACUS_MUSCLE_L",
+    "MUSCLE_ILIACUS_MUSCLE_R",
+    "MUSCLE_ILIOCOCCYGEUS_MUSCLE_L",
+    "MUSCLE_ILIOCOCCYGEUS_MUSCLE_R",
+    "MUSCLE_ILIOCOSTALIS_COLLI_MUSCLE",
+    "MUSCLE_ILIOCOSTALIS_COLLI_MUSCLE_R",
+    "MUSCLE_ILIOCOSTALIS_LUMBORUM_MUSCLE_L",
+    "MUSCLE_ILIOCOSTALIS_LUMBORUM_MUSCLE_R",
+    "MUSCLE_ILIOCOSTALIS_THORACIS_MUSCLE_L",
+    "MUSCLE_ILIOCOSTALIS_THORACIS_MUSCLE_R",
+    "MUSCLE_INFERIOR_GEMELLUS_MUSCLE_L",
+    "MUSCLE_INFERIOR_GEMELLUS_MUSCLE_R",
+    "MUSCLE_INFERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_L",
+    "MUSCLE_INFERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_R",
+    "MUSCLE_INFERIOR_OBLIQUE_MUSCLE_L",
+    "MUSCLE_INFERIOR_OBLIQUE_MUSCLE_R",
+    "MUSCLE_INFERIOR_PHARYNGEAL_CONSTRICTOR_L",
+    "MUSCLE_INFERIOR_PHARYNGEAL_CONSTRICTOR_R",
+    "MUSCLE_INFERIOR_RECTUS_MUSCLE_L",
+    "MUSCLE_INFERIOR_RECTUS_MUSCLE_R",
+    "MUSCLE_INFRASPINATUS_MUSCLE_L",
+    "MUSCLE_INFRASPINATUS_MUSCLE_R",
+    "MUSCLE_INNERMOST_INTERCOSTAL_MUSCLES_L",
+    "MUSCLE_INNERMOST_INTERCOSTAL_MUSCLES_R",
+    "MUSCLE_INTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_L",
+    "MUSCLE_INTERNAL_ABDOMINAL_OBLIQUE_MUSCLE_R",
+    "MUSCLE_INTERNAL_INTERCOSTAL_MUSCLES_L",
+    "MUSCLE_INTERNAL_INTERCOSTAL_MUSCLES_R",
+    "MUSCLE_INTERSPINALES_COLLI_MUSCLES_L",
+    "MUSCLE_INTERSPINALES_COLLI_MUSCLES_R",
+    "MUSCLE_INTERSPINALES_LUMBORUM_MUSCLES_L",
+    "MUSCLE_INTERSPINALES_LUMBORUM_MUSCLES_R",
+    "MUSCLE_INTERSPINALES_THORACIS_MUSCLES_L",
+    "MUSCLE_INTERSPINALES_THORACIS_MUSCLES_R",
+    "MUSCLE_LATERAL_CRICO_ARYTENOID_MUSCLE_L",
+    "MUSCLE_LATERAL_CRICO_ARYTENOID_MUSCLE_R",
+    "MUSCLE_LATERAL_HEAD_OF_FLEXOR_HALLUCIS_BREVIS_L",
+    "MUSCLE_LATERAL_HEAD_OF_FLEXOR_HALLUCIS_BREVIS_R",
+    "MUSCLE_LATERAL_HEAD_OF_GASTROCNEMIUS_L",
+    "MUSCLE_LATERAL_HEAD_OF_GASTROCNEMIUS_R",
+    "MUSCLE_LATERAL_HEAD_OF_TRICEPS_BRACHII_L",
+    "MUSCLE_LATERAL_HEAD_OF_TRICEPS_BRACHII_R",
+    "MUSCLE_LATERAL_RECTUS_MUSCLE_L",
+    "MUSCLE_LATERAL_RECTUS_MUSCLE_R",
+    "MUSCLE_LATISSIMUS_DORSI_MUSCLE_L",
+    "MUSCLE_LATISSIMUS_DORSI_MUSCLE_R",
+    "MUSCLE_LEVATORES_BREVES_COSTARUM_L",
+    "MUSCLE_LEVATORES_BREVES_COSTARUM_R",
+    "MUSCLE_LEVATORES_LONGI_COSTARUM_L",
+    "MUSCLE_LEVATORES_LONGI_COSTARUM_R",
+    "MUSCLE_LEVATOR_ANGULI_ORIS_L",
+    "MUSCLE_LEVATOR_ANGULI_ORIS_R",
+    "MUSCLE_LEVATOR_LABII_SUPERIORIS_L",
+    "MUSCLE_LEVATOR_LABII_SUPERIORIS_R",
+    "MUSCLE_LEVATOR_NASOLABIALIS_L",
+    "MUSCLE_LEVATOR_NASOLABIALIS_R",
+    "MUSCLE_LEVATOR_PALPEBRAE_SUPERIORIS_L",
+    "MUSCLE_LEVATOR_PALPEBRAE_SUPERIORIS_R",
+    "MUSCLE_LEVATOR_SCAPULAE_L",
+    "MUSCLE_LEVATOR_SCAPULAE_R",
+    "MUSCLE_LONGISSIMUS_CAPITIS_MUSCLE_L",
+    "MUSCLE_LONGISSIMUS_CAPITIS_MUSCLE_R",
+    "MUSCLE_LONGISSIMUS_COLLI_MUSCLE_L",
+    "MUSCLE_LONGISSIMUS_COLLI_MUSCLE_R",
+    "MUSCLE_LONGISSIMUS_THORACIS_MUSCLE_L",
+    "MUSCLE_LONGISSIMUS_THORACIS_MUSCLE_R",
+    "MUSCLE_LONGUS_CAPITIS_MUSCLE_L",
+    "MUSCLE_LONGUS_CAPITIS_MUSCLE_R",
+    "MUSCLE_LONGUS_COLLI_MUSCLE_L",
+    "MUSCLE_LONGUS_COLLI_MUSCLE_R",
+    "MUSCLE_LONG_HEAD_OF_BICEPS_BRACHII_L",
+    "MUSCLE_LONG_HEAD_OF_BICEPS_BRACHII_R",
+    "MUSCLE_LONG_HEAD_OF_BICEPS_FEMORIS_L",
+    "MUSCLE_LONG_HEAD_OF_BICEPS_FEMORIS_R",
+    "MUSCLE_LONG_HEAD_OF_TRICEPS_BRACHII_L",
+    "MUSCLE_LONG_HEAD_OF_TRICEPS_BRACHII_R",
+    "MUSCLE_LUMBRICAL_MUSCLES_OF_FOOT_L",
+    "MUSCLE_LUMBRICAL_MUSCLES_OF_FOOT_R",
+    "MUSCLE_LUMBRICAL_MUSCLES_OF_HAND_L",
+    "MUSCLE_LUMBRICAL_MUSCLES_OF_HAND_R",
+    "MUSCLE_MEDIAL_HEAD_OF_FLEXOR_HALLUCIS_BREVIS_L",
+    "MUSCLE_MEDIAL_HEAD_OF_FLEXOR_HALLUCIS_BREVIS_R",
+    "MUSCLE_MEDIAL_HEAD_OF_GASTROCNEMIUS_L",
+    "MUSCLE_MEDIAL_HEAD_OF_GASTROCNEMIUS_R",
+    "MUSCLE_MEDIAL_HEAD_OF_TRICEPS_BRACHII_L",
+    "MUSCLE_MEDIAL_HEAD_OF_TRICEPS_BRACHII_R",
+    "MUSCLE_MEDIAL_PTERYGOID_MUSCLE_L",
+    "MUSCLE_MEDIAL_PTERYGOID_MUSCLE_R",
+    "MUSCLE_MEDIAL_RECTUS_MUSCLE_L",
+    "MUSCLE_MEDIAL_RECTUS_MUSCLE_R",
+    "MUSCLE_MENTALIS_MUSCLE_L",
+    "MUSCLE_MENTALIS_MUSCLE_R",
+    "MUSCLE_MIDDLE_PHARYNGEAL_CONSTRICTOR_L",
+    "MUSCLE_MIDDLE_PHARYNGEAL_CONSTRICTOR_R",
+    "MUSCLE_MULTIFIDUS_COLLI_MUSCLE_L",
+    "MUSCLE_MULTIFIDUS_COLLI_MUSCLE_R",
+    "MUSCLE_MULTIFIDUS_LUMBORUM_MUSCLE_L",
+    "MUSCLE_MULTIFIDUS_LUMBORUM_MUSCLE_R",
+    "MUSCLE_MULTIFIDUS_THORACIS_MUSCLE_L",
+    "MUSCLE_MULTIFIDUS_THORACIS_MUSCLE_R",
+    "MUSCLE_MYLOHYOID_MUSCLE_L",
+    "MUSCLE_MYLOHYOID_MUSCLE_R",
+    "MUSCLE_NASALIS_MUSCLE_L",
+    "MUSCLE_NASALIS_MUSCLE_R",
+    "MUSCLE_OBLIQUE_HEAD_OF_ADDUCTOR_HALLUCIS_L",
+    "MUSCLE_OBLIQUE_HEAD_OF_ADDUCTOR_HALLUCIS_R",
+    "MUSCLE_OBLIQUE_HEAD_OF_ADDUCTOR_POLLICIS_L",
+    "MUSCLE_OBLIQUE_HEAD_OF_ADDUCTOR_POLLICIS_R",
+    "MUSCLE_OBLIQUE_PART_OF_CRICOTHYROID_MUSCLE_L",
+    "MUSCLE_OBLIQUE_PART_OF_CRICOTHYROID_MUSCLE_R",
+    "MUSCLE_OBLIQUUS_INFERIOR_CAPITIS_MUSCLE_L",
+    "MUSCLE_OBLIQUUS_INFERIOR_CAPITIS_MUSCLE_R",
+    "MUSCLE_OBLIQUUS_SUPERIOR_CAPITIS_MUSCLE_L",
+    "MUSCLE_OBLIQUUS_SUPERIOR_CAPITIS_MUSCLE_R",
+    "MUSCLE_OBTURATOR_EXTERNUS_L",
+    "MUSCLE_OBTURATOR_EXTERNUS_R",
+    "MUSCLE_OBTURATOR_INTERNUS_L",
+    "MUSCLE_OBTURATOR_INTERNUS_R",
+    "MUSCLE_OCCIPITALIS_MUSCLE_L",
+    "MUSCLE_OCCIPITALIS_MUSCLE_R",
+    "MUSCLE_OMOHYOID_MUSCLE_L",
+    "MUSCLE_OMOHYOID_MUSCLE_R",
+    "MUSCLE_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_FOOT_L",
+    "MUSCLE_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_FOOT_R",
+    "MUSCLE_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_HAND_L",
+    "MUSCLE_OPPONENS_DIGITI_MINIMI_MUSCLE_OF_HAND_R",
+    "MUSCLE_OPPONENS_POLLICIS_MUSCLE_L",
+    "MUSCLE_OPPONENS_POLLICIS_MUSCLE_R",
+    "MUSCLE_ORBICULARIS_ORIS_MUSCLE_L",
+    "MUSCLE_ORBICULARIS_ORIS_MUSCLE_R",
+    "MUSCLE_ORBITAL_PART_OF_ORBICULARIS_OCULI_L",
+    "MUSCLE_ORBITAL_PART_OF_ORBICULARIS_OCULI_R",
+    "MUSCLE_PALATOPHARYNGEUS_MUSCLE_L",
+    "MUSCLE_PALATOPHARYNGEUS_MUSCLE_R",
+    "MUSCLE_PALMARIS_LONGUS_MUSCLE_L",
+    "MUSCLE_PALMARIS_LONGUS_MUSCLE_R",
+    "MUSCLE_PALMAR_INTEROSSEI_MUSCLES_L",
+    "MUSCLE_PALMAR_INTEROSSEI_MUSCLES_R",
+    "MUSCLE_PALPEBRAL_PART_OF_ORBICULARIS_OCULI_L",
+    "MUSCLE_PALPEBRAL_PART_OF_ORBICULARIS_OCULI_R",
+    "MUSCLE_PECTINEUS_MUSCLE_L",
+    "MUSCLE_PECTINEUS_MUSCLE_R",
+    "MUSCLE_PECTORALIS_MINOR_MUSCLE_L",
+    "MUSCLE_PECTORALIS_MINOR_MUSCLE_R",
+    "MUSCLE_PIRIFORMIS_MUSCLE_L",
+    "MUSCLE_PIRIFORMIS_MUSCLE_R",
+    "MUSCLE_PLANTARIS_MUSCLE_L",
+    "MUSCLE_PLANTARIS_MUSCLE_R",
+    "MUSCLE_PLANTAR_INTEROSSEI_MUSCLES_L",
+    "MUSCLE_PLANTAR_INTEROSSEI_MUSCLES_R",
+    "MUSCLE_PLATYSMA_L",
+    "MUSCLE_PLATYSMA_R",
+    "MUSCLE_POPLITEUS_MUSCLE_L",
+    "MUSCLE_POPLITEUS_MUSCLE_R",
+    "MUSCLE_POSTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_L",
+    "MUSCLE_POSTERIOR_BELLY_OF_DIGASTRIC_MUSCLE_R",
+    "MUSCLE_POSTERIOR_CRICO_ARYTENOID_MUSCLE_L",
+    "MUSCLE_POSTERIOR_CRICO_ARYTENOID_MUSCLE_R",
+    "MUSCLE_PROCERUS_MUSCLE_L",
+    "MUSCLE_PROCERUS_MUSCLE_R",
+    "MUSCLE_PRONATOR_QUADRATUS_L",
+    "MUSCLE_PRONATOR_QUADRATUS_R",
+    "MUSCLE_PSOAS_MAJOR_L",
+    "MUSCLE_PSOAS_MAJOR_R",
+    "MUSCLE_PUBOCOCCYGEUS_MUSCLE_L",
+    "MUSCLE_PUBOCOCCYGEUS_MUSCLE_R",
+    "MUSCLE_PUBO_ANALIS_MUSCLE_L",
+    "MUSCLE_PUBO_ANALIS_MUSCLE_R",
+    "MUSCLE_PYRAMIDALIS_MUSCLE_L",
+    "MUSCLE_PYRAMIDALIS_MUSCLE_R",
+    "MUSCLE_QUADRATUS_FEMORIS_MUSCLE_L",
+    "MUSCLE_QUADRATUS_FEMORIS_MUSCLE_R",
+    "MUSCLE_QUADRATUS_LUMBORUM_MUSCLE_L",
+    "MUSCLE_QUADRATUS_LUMBORUM_MUSCLE_R",
+    "MUSCLE_QUADRATUS_PLANTAE_MUSCLE_L",
+    "MUSCLE_QUADRATUS_PLANTAE_MUSCLE_R",
+    "MUSCLE_RADIAL_HEAD_OF_FLEXOR_DIGITORUM_SUPERFICIALIS_L",
+    "MUSCLE_RADIAL_HEAD_OF_FLEXOR_DIGITORUM_SUPERFICIALIS_R",
+    "MUSCLE_RECTUS_ABDOMINIS_MUSCLE_L",
+    "MUSCLE_RECTUS_ABDOMINIS_MUSCLE_R",
+    "MUSCLE_RECTUS_ANTERIOR_CAPITIS_MUSCLE_L",
+    "MUSCLE_RECTUS_ANTERIOR_CAPITIS_MUSCLE_R",
+    "MUSCLE_RECTUS_FEMORIS_L",
+    "MUSCLE_RECTUS_FEMORIS_R",
+    "MUSCLE_RECTUS_LATERALIS_CAPITIS_MUSCLE_L",
+    "MUSCLE_RECTUS_LATERALIS_CAPITIS_MUSCLE_R",
+    "MUSCLE_RECTUS_POSTERIOR_MAJOR_CAPITIS_MUSCLE_L",
+    "MUSCLE_RECTUS_POSTERIOR_MAJOR_CAPITIS_MUSCLE_R",
+    "MUSCLE_RECTUS_POSTERIOR_MINOR_CAPITIS_MUSCLE_L",
+    "MUSCLE_RECTUS_POSTERIOR_MINOR_CAPITIS_MUSCLE_R",
+    "MUSCLE_RHOMBOID_MAJOR_MUSCLE_L",
+    "MUSCLE_RHOMBOID_MAJOR_MUSCLE_R",
+    "MUSCLE_RHOMBOID_MINOR_MUSCLE_L",
+    "MUSCLE_RHOMBOID_MINOR_MUSCLE_R",
+    "MUSCLE_RISORIUS_MUSCLE_L",
+    "MUSCLE_RISORIUS_MUSCLE_R",
+    "MUSCLE_ROTATORES_L",
+    "MUSCLE_ROTATORES_R",
+    "MUSCLE_SARTORIUS_MUSCLE_L",
+    "MUSCLE_SARTORIUS_MUSCLE_R",
+    "MUSCLE_SCALENUS_ANTERIOR_MUSCLE_L",
+    "MUSCLE_SCALENUS_ANTERIOR_MUSCLE_R",
+    "MUSCLE_SCALENUS_MEDIUS_MUSCLE_L",
+    "MUSCLE_SCALENUS_MEDIUS_MUSCLE_R",
+    "MUSCLE_SCALENUS_POSTERIOR_MUSCLE_L",
+    "MUSCLE_SCALENUS_POSTERIOR_MUSCLE_R",
+    "MUSCLE_SCAPULAR_SPINAL_PART_OF_DELTOID_MUSCLE_L",
+    "MUSCLE_SCAPULAR_SPINAL_PART_OF_DELTOID_MUSCLE_R",
+    "MUSCLE_SEMIMEMBRANOSUS_MUSCLE_L",
+    "MUSCLE_SEMIMEMBRANOSUS_MUSCLE_R",
+    "MUSCLE_SEMISPINALIS_COLLI_MUSCLE_L",
+    "MUSCLE_SEMISPINALIS_COLLI_MUSCLE_R",
+    "MUSCLE_SEMISPINALIS_THORACIS_MUSCLE_L",
+    "MUSCLE_SEMISPINALIS_THORACIS_MUSCLE_R",
+    "MUSCLE_SEMITENDINOSUS_MUSCLE_L",
+    "MUSCLE_SEMITENDINOSUS_MUSCLE_R",
+    "MUSCLE_SERRATUS_ANTERIOR_MUSCLE_L",
+    "MUSCLE_SERRATUS_ANTERIOR_MUSCLE_R",
+    "MUSCLE_SERRATUS_POSTERIOR_INFERIOR_MUSCLE_L",
+    "MUSCLE_SERRATUS_POSTERIOR_INFERIOR_MUSCLE_R",
+    "MUSCLE_SERRATUS_POSTERIOR_SUPERIOR_MUSCLE_L",
+    "MUSCLE_SERRATUS_POSTERIOR_SUPERIOR_MUSCLE_R",
+    "MUSCLE_SHORT_HEAD_OF_BICEPS_BRACHII_L",
+    "MUSCLE_SHORT_HEAD_OF_BICEPS_BRACHII_R",
+    "MUSCLE_SHORT_HEAD_OF_BICEPS_FEMORIS_L",
+    "MUSCLE_SHORT_HEAD_OF_BICEPS_FEMORIS_R",
+    "MUSCLE_SOLEUS_MUSCLE_L",
+    "MUSCLE_SOLEUS_MUSCLE_R",
+    "MUSCLE_SPINALIS_CAPITIS_MUSCLE_L",
+    "MUSCLE_SPINALIS_CAPITIS_MUSCLE_R",
+    "MUSCLE_SPINALIS_COLLI_MUSCLE_L",
+    "MUSCLE_SPINALIS_COLLI_MUSCLE_R",
+    "MUSCLE_SPINALIS_THORACIS_MUSCLE_L",
+    "MUSCLE_SPINALIS_THORACIS_MUSCLE_R",
+    "MUSCLE_SPLENIUS_CAPITIS_MUSCLE_L",
+    "MUSCLE_SPLENIUS_CAPITIS_MUSCLE_R",
+    "MUSCLE_SPLENIUS_COLLI_MUSCLE_L",
+    "MUSCLE_SPLENIUS_COLLI_MUSCLE_R",
+    "MUSCLE_STERNOCLEIDOMASTOID_MUSCLE_L",
+    "MUSCLE_STERNOCLEIDOMASTOID_MUSCLE_R",
+    "MUSCLE_STERNOCOSTAL_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_L",
+    "MUSCLE_STERNOCOSTAL_HEAD_OF_PECTORALIS_MAJOR_MUSCLE_R",
+    "MUSCLE_STERNOHYOID_MUSCLE_L",
+    "MUSCLE_STERNOHYOID_MUSCLE_R",
+    "MUSCLE_STERNOTHYROID_MUSCLE_L",
+    "MUSCLE_STERNOTHYROID_MUSCLE_R",
+    "MUSCLE_STRAIGHT_PART_OF_CRICOTHYROID_MUSCLE_L",
+    "MUSCLE_STRAIGHT_PART_OF_CRICOTHYROID_MUSCLE_R",
+    "MUSCLE_STYLOHYOID_MUSCLE_L",
+    "MUSCLE_STYLOHYOID_MUSCLE_R",
+    "MUSCLE_STYLOPHARYNGEUS_MUSCLE_L",
+    "MUSCLE_STYLOPHARYNGEUS_MUSCLE_R",
+    "MUSCLE_SUBCLAVIUS_MUSCLE_L",
+    "MUSCLE_SUBCLAVIUS_MUSCLE_R",
+    "MUSCLE_SUBSCAPULARIS_MUSCLE_L",
+    "MUSCLE_SUBSCAPULARIS_MUSCLE_R",
+    "MUSCLE_SUPERFICIAL_HEAD_OF_FLEXOR_POLLICIS_BREVIS_L",
+    "MUSCLE_SUPERFICIAL_HEAD_OF_FLEXOR_POLLICIS_BREVIS_R",
+    "MUSCLE_SUPERFICIAL_HEAD_OF_PRONATOR_TERES_L",
+    "MUSCLE_SUPERFICIAL_HEAD_OF_PRONATOR_TERES_R",
+    "MUSCLE_SUPERFICIAL_PART_OF_MASSETER_L",
+    "MUSCLE_SUPERFICIAL_PART_OF_MASSETER_R",
+    "MUSCLE_SUPERIOR_GEMELLUS_MUSCLE_L",
+    "MUSCLE_SUPERIOR_GEMELLUS_MUSCLE_R",
+    "MUSCLE_SUPERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_L",
+    "MUSCLE_SUPERIOR_HEAD_OF_LATERAL_PTERYGOID_MUSCLE_R",
+    "MUSCLE_SUPERIOR_OBLIQUE_MUSCLE_L",
+    "MUSCLE_SUPERIOR_OBLIQUE_MUSCLE_R",
+    "MUSCLE_SUPERIOR_PHARYNGEAL_CONSTRICTOR_L",
+    "MUSCLE_SUPERIOR_PHARYNGEAL_CONSTRICTOR_R",
+    "MUSCLE_SUPERIOR_RECTUS_MUSCLE_L",
+    "MUSCLE_SUPERIOR_RECTUS_MUSCLE_R",
+    "MUSCLE_SUPINATOR_L",
+    "MUSCLE_SUPINATOR_R",
+    "MUSCLE_SUPRASPINATUS_MUSCLE_L",
+    "MUSCLE_SUPRASPINATUS_MUSCLE_R",
+    "MUSCLE_TEMPORALIS_MUSCLE_L",
+    "MUSCLE_TEMPORALIS_MUSCLE_R",
+    "MUSCLE_TEMPOROPARIETALIS_MUSCLE_L",
+    "MUSCLE_TEMPOROPARIETALIS_MUSCLE_R",
+    "MUSCLE_TENSOR_FASCIAE_LATAE_L",
+    "MUSCLE_TENSOR_FASCIAE_LATAE_R",
+    "MUSCLE_TERES_MAJOR_MUSCLE_L",
+    "MUSCLE_TERES_MAJOR_MUSCLE_R",
+    "MUSCLE_TERES_MINOR_MUSCLE_L",
+    "MUSCLE_TERES_MINOR_MUSCLE_R",
+    "MUSCLE_THYROHYOID_MUSCLE_L",
+    "MUSCLE_THYROHYOID_MUSCLE_R",
+    "MUSCLE_THYRO_EPIGLOTTIC_PART_OF_THYRO_ARYTENOID_MUSCLE_L",
+    "MUSCLE_THYRO_EPIGLOTTIC_PART_OF_THYRO_ARYTENOID_MUSCLE_R",
+    "MUSCLE_TIBIALIS_ANTERIOR_MUSCLE_L",
+    "MUSCLE_TIBIALIS_ANTERIOR_MUSCLE_R",
+    "MUSCLE_TIBIALIS_POSTERIOR_MUSCLE_L",
+    "MUSCLE_TIBIALIS_POSTERIOR_MUSCLE_R",
+    "MUSCLE_TRANSVERSE_ARYTENOID_MUSCLE",
+    "MUSCLE_TRANSVERSE_HEAD_OF_ADDUCTOR_HALLUCIS_L",
+    "MUSCLE_TRANSVERSE_HEAD_OF_ADDUCTOR_HALLUCIS_R",
+    "MUSCLE_TRANSVERSE_HEAD_OF_ADDUCTOR_POLLICIS_L",
+    "MUSCLE_TRANSVERSE_HEAD_OF_ADDUCTOR_POLLICIS_R",
+    "MUSCLE_TRANSVERSE_PART_OF_TRAPEZIUS_MUSCLE_L",
+    "MUSCLE_TRANSVERSE_PART_OF_TRAPEZIUS_MUSCLE_R",
+    "MUSCLE_TRANSVERSUS_ABDOMINIS_MUSCLE_L",
+    "MUSCLE_TRANSVERSUS_ABDOMINIS_MUSCLE_R",
+    "MUSCLE_TRANSVERSUS_THORACIS_MUSCLE_L",
+    "MUSCLE_TRANSVERSUS_THORACIS_MUSCLE_R",
+    "MUSCLE_ULNAR_HEAD_OF_EXTENSOR_CARPI_ULNARIS_L",
+    "MUSCLE_ULNAR_HEAD_OF_EXTENSOR_CARPI_ULNARIS_R",
+    "MUSCLE_ULNAR_HEAD_OF_FLEXOR_CARPI_ULNARIS_L",
+    "MUSCLE_ULNAR_HEAD_OF_FLEXOR_CARPI_ULNARIS_R",
+    "MUSCLE_VASTUS_INTERMEDIUS_MUSCLE_L",
+    "MUSCLE_VASTUS_INTERMEDIUS_MUSCLE_R",
+    "MUSCLE_VASTUS_LATERALIS_MUSCLE_L",
+    "MUSCLE_VASTUS_LATERALIS_MUSCLE_R",
+    "MUSCLE_VASTUS_MEDIALIS_MUSCLE_L",
+    "MUSCLE_VASTUS_MEDIALIS_MUSCLE_R",
+    "MUSCLE_VENTRAL_PARTS_OF_LATERAL_INTERTRANSVERSARII_L_L_29D6528A",
+    "MUSCLE_VENTRAL_PARTS_OF_LATERAL_INTERTRANSVERSARII_L_R_D3D96FE9",
+    "MUSCLE_ZYGOMATICUS_MAJOR_MUSCLE_L",
+    "MUSCLE_ZYGOMATICUS_MAJOR_MUSCLE_R",
+    "MUSCLE_ZYGOMATICUS_MINOR_MUSCLE_L",
+    "MUSCLE_ZYGOMATICUS_MINOR_MUSCLE_R"
+  ],
+  "source": {
+    "bytes": 37343180,
+    "file": "MuscularSystem100.fbx",
+    "license": "BodyParts3D CC BY-SA 2.1 Japan; Z-Anatomy CC BY-SA 4.0",
+    "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+    "url": "https://github.com/LluisV/Z-Anatomy/blob/PC-Version/Resources/Models/FBX/MuscularSystem100.fbx"
+  }
+}

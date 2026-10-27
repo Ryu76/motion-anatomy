@@ -6,6 +6,7 @@ const validStructure = {
   name_ko: "샘플 근육",
   name_en: "Sample muscle",
   name_latin: null,
+  search_terms: [],
   structure_type: "muscle",
   body_region: "lower_limb",
   side: "left",
@@ -41,5 +42,11 @@ describe("anatomyStructureListSchema", () => {
       model_node_name: "Aorta",
     });
     expect(vessel.structure_type).toBe("vessel");
+  });
+
+  it("preserves group aliases as search terms instead of display names", () => {
+    const component = anatomyStructureSchema.parse({ ...validStructure, search_terms: ["장요근"] });
+    expect(component.name_ko).toBe("샘플 근육");
+    expect(component.search_terms).toEqual(["장요근"]);
   });
 });

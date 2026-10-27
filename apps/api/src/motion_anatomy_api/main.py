@@ -7,7 +7,7 @@ from typing import Literal
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class Source(BaseModel):
@@ -26,6 +26,7 @@ class AnatomyStructure(BaseModel):
     name_ko: str
     name_en: str
     name_latin: str | None
+    search_terms: list[str] = Field(default_factory=list)
     structure_type: Literal["bone", "muscle", "tendon", "ligament", "fascia", "vessel"]
     body_region: str
     side: Literal["left", "right", "midline"]
